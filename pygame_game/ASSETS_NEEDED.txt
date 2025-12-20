@@ -1,0 +1,141 @@
+================================================================================
+                    BENEATH THE HOUSE - REQUIRED ASSETS
+================================================================================
+
+Place these files in the assets/ directory for the full game experience.
+The game will run with placeholder backgrounds if assets are missing.
+
+================================================================================
+                              BACKGROUND IMAGES
+================================================================================
+Directory: assets/backgrounds/
+Format: PNG or JPG, 1280x720 recommended
+
+ACT I - THREE EVENINGS
+----------------------
+driveway_night.png          - Night view of childhood home driveway
+living_room_night.png       - Cozy living room at night, sibling on couch
+living_room_lamp.png        - Same living room, single lamp lighting
+living_room_dark.png        - Living room in darkness with incense glow
+kitchen_night.png           - Kitchen at night, table visible
+kitchen_table.png           - Close on kitchen table, tapestry visible
+bedroom_night.png           - Protagonist's childhood bedroom
+hallway_dark.png            - Dark hallway, 3 AM atmosphere
+
+ACT II - THE DISAPPEARANCE
+--------------------------
+house_exterior_morning.png  - House exterior, morning light
+house_dark_empty.png        - Empty house, all lights off, wrong feeling
+sibling_room_empty.png      - Sibling's empty room, belongings gone
+sibling_room_search.png     - Same room during frantic search
+police_station.png          - Detective Marsh's desk/office
+elena_apartment.png         - Elena's apartment, drawings visible
+funeral_chapel.png          - Chapel with empty casket
+cemetery.png                - Cemetery exterior, funeral gathering
+house_attic.png             - Attic space, dusty, old items
+
+ACT III - THE HAUNTED MONTHS
+----------------------------
+house_months_later.png      - House showing signs of grief/neglect
+bedroom_3am.png             - Bedroom at 3:17 AM, protagonist awake
+living_room_pendant.png     - Living room with pendant in new location
+basement_door.png           - Basement with hidden door revealed
+tapestry_wall.png           - Close on tapestry with warm air behind it
+hidden_door.png             - The impossible door, symbols carved
+
+ACT IV - THE DESCENT
+--------------------
+stone_stairs.png            - Stone staircase descending into darkness
+antechamber.png             - Underground meeting chamber, carved pillars
+level1_symbols.png          - Close on wall symbols/carvings
+level2_alcoves.png          - Carved sleeping alcoves, residences
+level2_lantern.png          - Alcove with burning lantern
+level2_photographs.png      - Wall of old photographs
+cathedral_cavern.png        - Vast underground cathedral space
+altar.png                   - Stone altar with candles
+pit_darkness.png            - The pit, absolute darkness below
+warren_tunnels.png          - Branching organic tunnels
+level4_descent.png          - Shaft descending to lowest level
+
+ACT V - THE REUNION
+-------------------
+lowest_place.png            - Organic chamber, floor like tissue
+reunion_figure.png          - Sibling's silhouette in the dark
+sibling_changed.png         - Sibling revealed, transformed
+communion_chamber.png       - Chamber for Ending A
+surface_dawn.png            - Dawn at house exterior for Ending B
+struggle.png                - Action scene for Ending C
+truth_glimpse.png           - Abstract/cosmic imagery for Ending D
+
+TOTAL: 37 background images
+
+================================================================================
+                                MUSIC FILES
+================================================================================
+Directory: assets/music/
+Format: WAV, MP3, or OGG (loopable recommended)
+
+AMBIENT
+-------
+ambient_home.wav            - Quiet, comfortable home atmosphere
+ambient_dark.wav            - Unsettling ambient (main menu)
+ambient_night.wav           - Night sounds, quiet unease
+ambient_wrong.wav           - Something is wrong, subtle dissonance
+ambient_grief.wav           - Heavy, muted, grief atmosphere
+
+TENSION
+-------
+tension_building.wav        - Slow building dread
+tension_discovery.wav       - Discovery moment, unsettling
+
+UNDERGROUND
+-----------
+descent.wav                 - Descending music, getting deeper
+underground.wav             - Cave/underground atmosphere
+cathedral.wav               - Vast space, awe and terror
+warren.wav                  - Claustrophobic, organic tunnels
+lowest_place.wav            - The deepest point, alien presence
+
+ENDINGS
+-------
+ending_communion.wav        - Ending A - transcendence
+ending_escape.wav           - Ending B - relief, haunted
+ending_defiance.wav         - Ending C - struggle, uncertain
+ending_understanding.wav    - Ending D - cosmic truth
+
+TOTAL: 16 music tracks
+
+================================================================================
+                              SPECIFICATIONS
+================================================================================
+
+BACKGROUNDS:
+  - Resolution: 1280x720 (game window size)
+  - Format: PNG (transparency) or JPG
+  - Style: Dark, atmospheric, desaturated
+  - Lighting: Low-light, nighttime
+
+MUSIC:
+  - Format: WAV, MP3, or OGG
+  - Length: 2-4 minutes, loopable
+  - Style: Dark ambient, minimal
+  - Volume: Normalized, not too loud
+
+================================================================================
+                              QUICK START
+================================================================================
+
+Don't have assets yet? The game runs fine with placeholders!
+
+For quick testing, you can:
+1. Use AI image generation (Midjourney, DALL-E) for backgrounds
+2. Use royalty-free dark ambient music from:
+   - freesound.org
+   - incompetech.com
+   - Free Music Archive
+
+Prompt for AI backgrounds:
+"Dark atmospheric [scene description], horror game background,
+nighttime, cinematic lighting, slightly desaturated, 16:9 aspect ratio"
+
+================================================================================

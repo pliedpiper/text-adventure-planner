@@ -1,0 +1,231 @@
+================================================================================
+                    BENEATH THE HOUSE - REQUIRED ASSETS
+================================================================================
+
+This file lists all background images and music files needed for the game.
+Assets should be placed in the renpy_project/game/ directory.
+
+================================================================================
+                              BACKGROUND IMAGES
+================================================================================
+Directory: images/backgrounds/
+
+ACT I - THREE EVENINGS
+----------------------
+driveway_night.png          - Night view of childhood home driveway
+living_room_night.png       - Cozy living room at night, sibling on couch
+living_room_lamp.png        - Same living room, single lamp lighting
+living_room_dark.png        - Living room in darkness with incense glow
+kitchen_night.png           - Kitchen at night, table visible
+kitchen_table.png           - Close on kitchen table, tapestry visible
+bedroom_night.png           - Protagonist's childhood bedroom
+hallway_dark.png            - Dark hallway, 3 AM atmosphere
+
+ACT II - THE DISAPPEARANCE
+--------------------------
+house_exterior_morning.png  - House exterior, morning light
+house_dark_empty.png        - Empty house, all lights off, wrong feeling
+sibling_room_empty.png      - Sibling's empty room, belongings gone
+sibling_room_search.png     - Same room during frantic search
+police_station.png          - Detective Marsh's desk/office
+elena_apartment.png         - Elena's apartment, drawings visible
+funeral_chapel.png          - Chapel with empty casket
+cemetery.png                - Cemetery exterior, funeral gathering
+house_attic.png             - Attic space, dusty, old items
+
+ACT III - THE HAUNTED MONTHS
+----------------------------
+house_months_later.png      - House showing signs of grief/neglect
+bedroom_3am.png             - Bedroom at 3:17 AM, protagonist awake
+living_room_pendant.png     - Living room with pendant in new location
+basement_door.png           - Basement with hidden door revealed
+tapestry_wall.png           - Close on tapestry with warm air behind it
+hidden_door.png             - The impossible door, symbols carved
+
+ACT IV - THE DESCENT
+--------------------
+stone_stairs.png            - Stone staircase descending into darkness
+antechamber.png             - Underground meeting chamber, carved pillars
+level1_symbols.png          - Close on wall symbols/carvings
+level2_alcoves.png          - Carved sleeping alcoves, residences
+level2_lantern.png          - Alcove with burning lantern
+level2_photographs.png      - Wall of old photographs
+cathedral_cavern.png        - Vast underground cathedral space
+altar.png                   - Stone altar with candles
+pit_darkness.png            - The pit, absolute darkness below
+warren_tunnels.png          - Branching organic tunnels
+level4_descent.png          - Shaft descending to lowest level
+
+ACT V - THE REUNION
+-------------------
+lowest_place.png            - Organic chamber, floor like tissue
+reunion_figure.png          - Sibling's silhouette in the dark
+sibling_changed.png         - Sibling revealed, transformed
+communion_chamber.png       - Chamber for Ending A
+surface_dawn.png            - Dawn at house exterior for Ending B
+struggle.png                - Action scene for Ending C
+truth_glimpse.png           - Abstract/cosmic imagery for Ending D
+
+MENUS & UI
+----------
+main_menu_bg.png            - Title screen background (dark, ominous)
+game_menu_bg.png            - Pause/save menu background
+
+TOTAL BACKGROUND IMAGES: 40
+
+================================================================================
+                                MUSIC FILES
+================================================================================
+Directory: audio/music/
+
+AMBIENT & ATMOSPHERE
+--------------------
+ambient_home.wav            - Quiet, comfortable home atmosphere
+ambient_dark.wav            - Unsettling ambient, main menu music
+ambient_night.wav           - Night sounds, crickets, quiet unease
+ambient_wrong.wav           - Something is wrong, subtle dissonance
+ambient_grief.wav           - Heavy, muted, grief atmosphere
+ambient_3am.wav             - 3 AM atmosphere, liminal space feeling
+
+TENSION & HORROR
+----------------
+tension_building.wav        - Slow building dread
+tension_discovery.wav       - Discovery moment, unsettling revelation
+horror_sting.wav            - Jump scare/shock moment (short)
+wrongness.wav               - Deep wrongness, reality bending
+
+DESCENT & UNDERGROUND
+---------------------
+descent.wav                 - Descending music, getting deeper
+underground_ambient.wav     - Cave/underground atmosphere
+cathedral.wav               - Vast space, awe and terror
+warren.wav                  - Claustrophobic, organic tunnels
+lowest_place.wav            - The deepest point, alien presence
+
+EMOTIONAL
+---------
+melancholy.wav              - Sad, reflective (sibling memories)
+loss.wav                    - Grief, loss theme
+hope_fading.wav             - Hope mixed with despair
+
+ENDINGS
+-------
+ending_communion.wav        - Ending A - joining, transcendence
+ending_escape.wav           - Ending B - relief, but haunted
+ending_defiance.wav         - Ending C - struggle, uncertain fate
+ending_understanding.wav    - Ending D - cosmic horror, truth revealed
+
+TOTAL MUSIC FILES: 21
+
+================================================================================
+                              SOUND EFFECTS
+================================================================================
+Directory: audio/sfx/
+
+ENVIRONMENTAL
+-------------
+door_creak.wav              - Old door opening
+footsteps_wood.wav          - Walking on wooden floor
+footsteps_stone.wav         - Walking on stone
+knock_3am.wav               - Knocking at 3 AM (three knocks)
+wind_howl.wav               - Wind through old house
+fire_crackle.wav            - Fireplace/candle sounds
+
+HORROR ELEMENTS
+---------------
+breath_close.wav            - Someone breathing nearby
+whisper.wav                 - Indistinct whispering
+heartbeat.wav               - Pounding heartbeat
+static_burst.wav            - Reality glitch sound
+descent_drip.wav            - Water dripping in caves
+organic_pulse.wav           - Living walls pulse sound
+
+INTERACTIONS
+------------
+pendant_chime.wav           - Pendant touching/swaying
+book_open.wav               - Opening old book
+paper_rustle.wav            - Handling old documents
+match_strike.wav            - Lighting a match
+
+TOTAL SOUND EFFECTS: 16
+
+================================================================================
+                              SPECIFICATIONS
+================================================================================
+
+BACKGROUND IMAGES:
+- Resolution: 1920x1080 (16:9 aspect ratio)
+- Format: PNG (for transparency support) or JPG
+- Style: Dark, atmospheric, slightly desaturated
+- Lighting: Predominantly low-light, nighttime scenes
+
+MUSIC FILES:
+- Format: WAV, OGG, or MP3
+- Suggested length: 2-4 minutes, loopable
+- Style: Dark ambient, minimal, unsettling
+- Tempo: Slow to moderate
+
+SOUND EFFECTS:
+- Format: WAV or OGG
+- Length: 1-10 seconds typically
+- Quality: 44.1kHz, 16-bit minimum
+
+================================================================================
+                              STYLE NOTES
+================================================================================
+
+VISUAL STYLE:
+- Color palette: Deep blues, blacks, desaturated warm tones (for home)
+- Contrast: High contrast, deep shadows
+- Mood: Isolated, intimate, increasingly otherworldly
+- References:
+  * "What Remains of Edith Finch" (home interiors)
+  * "Anatomy" by Kitty Horrorshow (dark house horror)
+  * "Layers of Fear" (psychological horror atmosphere)
+
+AUDIO STYLE:
+- Influences:
+  * Akira Yamaoka (Silent Hill series)
+  * Ben Frost (dark ambient)
+  * Lustmord (deep drone ambient)
+- Key elements:
+  * Low drones
+  * Subtle dissonance
+  * Found sounds
+  * Organic textures for underground sections
+
+================================================================================
+                              FILE STRUCTURE
+================================================================================
+
+renpy_project/
+└── game/
+    ├── script.rpy
+    ├── options.rpy
+    ├── gui.rpy
+    ├── images/
+    │   └── backgrounds/
+    │       ├── driveway_night.png
+    │       ├── living_room_night.png
+    │       └── ... (40 images)
+    └── audio/
+        ├── music/
+        │   ├── ambient_home.wav
+        │   ├── ambient_dark.wav
+        │   └── ... (21 tracks)
+        └── sfx/
+            ├── door_creak.wav
+            ├── footsteps_wood.wav
+            └── ... (16 effects)
+
+================================================================================
+                              TOTAL ASSETS
+================================================================================
+
+Background Images:    40 files
+Music Tracks:         21 files
+Sound Effects:        16 files
+---------------------------------
+TOTAL:                77 asset files
+
+================================================================================
