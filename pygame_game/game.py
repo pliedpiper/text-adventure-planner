@@ -451,11 +451,15 @@ class Game:
         for button in self.choice_buttons:
             button.draw(self.screen)
 
-        # Scene indicator (for debugging)
-        scene_id = self.font_text.render(
-            f"Scene: {self.state.current_scene}", True, (50, 50, 50)
+        # Debug info (scene, music, background)
+        bg_debug = scene.get("background", "") or "empty"
+        music_debug = self.assets.current_music or "empty"
+
+        debug_text = self.font_text.render(
+            f"Scene: {self.state.current_scene} | Music: {music_debug} | BG: {bg_debug}",
+            True, (50, 50, 50)
         )
-        self.screen.blit(scene_id, (10, 10))
+        self.screen.blit(debug_text, (10, 10))
 
     def handle_menu_input(self, event):
         """Handle input on menu screen."""
