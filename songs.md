@@ -4,7 +4,7 @@ Music for a psychological horror game about watching a sibling fall into a cult 
 
 ---
 
-## 1. office_ambient.wav
+## [x] 1. office_ambient.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -12,7 +12,7 @@ Compose a 16-measure ambient piece for a corporate office environment that feels
 
 ---
 
-## 2. start.wav
+## [x] 2. start.wav
 **Measures:** 8 | **Loop:** Yes
 
 **Prompt:**
@@ -20,7 +20,7 @@ Create an 8-measure piece capturing the bittersweet comfort of coming home at du
 
 ---
 
-## 3. peaceful.wav
+## [x] 3. peaceful.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -28,7 +28,7 @@ Write a 16-measure intimate nocturne for a scene of two people watching televisi
 
 ---
 
-## 4. quiet.wav
+## [ ] 4. quiet.wav
 **Measures:** 8 | **Loop:** Yes
 
 **Prompt:**
@@ -36,7 +36,7 @@ Compose an 8-measure piece that sounds like the uncomfortable silence between tw
 
 ---
 
-## 5. uneasy.wav
+## [ ] 5. uneasy.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -44,7 +44,7 @@ Create a 16-measure piece for the moment you realize your home has become unfami
 
 ---
 
-## 6. tense.wav
+## [ ] 6. tense.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -52,7 +52,7 @@ Write a 16-measure piece for an argument that hasn't quite become an argument. K
 
 ---
 
-## 7. tension.wav
+## [ ] 7. tension.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -60,7 +60,7 @@ Compose a 16-measure sustained dread piece for moments of psychological pressure
 
 ---
 
-## 8. dread.wav
+## [ ] 8. dread.wav
 **Measures:** 32 | **Loop:** Yes
 
 **Prompt:**
@@ -68,7 +68,7 @@ Create a 32-measure piece embodying ancient, patient wrongness. Key of D minor (
 
 ---
 
-## 9. somber.wav
+## [ ] 9. somber.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -76,7 +76,7 @@ Write a 16-measure piece for grief without closure. Key of G minor, tempo 62 BPM
 
 ---
 
-## 10. grief.wav
+## [ ] 10. grief.wav
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -84,7 +84,7 @@ Compose an 8-measure piece of raw, concentrated anguish for the moment of readin
 
 ---
 
-## 11. emptiness.wav
+## [ ] 11. emptiness.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -92,7 +92,7 @@ Create a 16-measure piece for the hollow aftermath of loss. Key of F minor, temp
 
 ---
 
-## 12. horror.wav
+## [ ] 12. horror.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -100,7 +100,7 @@ Write a 16-measure piece for the moment the impossible becomes real. Key of B mi
 
 ---
 
-## 13. descent.wav
+## [ ] 13. descent.wav
 **Measures:** 32 | **Loop:** Yes
 
 **Prompt:**
@@ -108,7 +108,7 @@ Compose a 32-measure piece embodying continuous downward movement. Start in D mi
 
 ---
 
-## 14. awe.wav
+## [ ] 14. awe.wav
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -116,7 +116,7 @@ Create an 8-measure piece for moments of terrible beauty. Key of E-flat major bu
 
 ---
 
-## 15. finale.wav
+## [ ] 15. finale.wav
 **Measures:** 32 | **Loop:** Yes
 
 **Prompt:**
@@ -124,7 +124,7 @@ Write a 32-measure piece for the final confrontation between human and inhuman. 
 
 ---
 
-## 16. ending_a.wav ("Communion")
+## [ ] 16. ending_a.wav ("Communion")
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -132,7 +132,7 @@ Compose an 8-measure piece for surrender that feels like peace. Key of D major (
 
 ---
 
-## 17. ending_b.wav ("Escape")
+## [ ] 17. ending_b.wav ("Escape")
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -140,7 +140,7 @@ Create an 8-measure piece for hollow survival. Key of A minor, tempo 72 BPM (sug
 
 ---
 
-## 18. ending_c.wav ("Defiance")
+## [ ] 18. ending_c.wav ("Defiance")
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -148,7 +148,7 @@ Write an 8-measure piece for futile, beautiful resistance. Key of C minor with h
 
 ---
 
-## 19. ending_d.wav ("Understanding")
+## [ ] 19. ending_d.wav ("Understanding")
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
