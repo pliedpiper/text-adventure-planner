@@ -263,7 +263,7 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ---
 
-### Start - Coming Home [ ]
+### Start - Coming Home [x]
 **File:** `start.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A living room at night, viewed from the entryway. The porch light casts a faint glow through the window. A figure is curled on a worn couch, wrapped in an old blue blanket, face obscured by pixelation but body language suggesting exhaustion. The TV murmurs in the corner, its cold blue light mixing with the warm lamplight. The room feels small, lived-in, domestic. Keys and a bag dropped by the door. A kitchen visible in the background, the faint suggestion of something reheated. This is home - but home carries weight. The warmth feels fragile, temporary. Liminal space atmosphere.

@@ -116,7 +116,7 @@ Compose a 32-measure piece embodying continuous downward movement. Start in D mi
 
 ---
 
-## [ ] 14. awe.wav
+## [x] 14. awe.wav
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -124,7 +124,7 @@ Create an 8-measure piece for moments of terrible beauty. Key of E-flat major bu
 
 ---
 
-## [ ] 15. finale.wav
+## [x] 15. finale.wav
 **Measures:** 32 | **Loop:** Yes
 
 **Prompt:**
@@ -132,7 +132,7 @@ Write a 32-measure piece for the final confrontation between human and inhuman. 
 
 ---
 
-## [ ] 16. ending_a.wav ("Communion")
+## [x] 16. ending_a.wav ("Communion")
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -140,7 +140,7 @@ Compose an 8-measure piece for surrender that feels like peace. Key of D major (
 
 ---
 
-## [ ] 17. ending_b.wav ("Escape")
+## [x] 17. ending_b.wav ("Escape")
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
