@@ -430,6 +430,10 @@ class Game:
 
     def draw_menu(self):
         """Draw main menu."""
+        # Play title music
+        if self.assets.current_music != "title":
+            self.assets.play_music("title")
+
         # Background
         self.screen.fill(COLOR_BLACK)
 

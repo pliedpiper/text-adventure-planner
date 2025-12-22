@@ -4,6 +4,14 @@ Music for a psychological horror game about watching a sibling fall into a cult 
 
 ---
 
+## [ ] 0. title.wav
+**Measures:** 16 | **Loop:** Yes
+
+**Prompt:**
+Compose a 16-measure piece for the game's title screen—the player's first impression before entering the story. Key ambiguous (Dorian mode on D, allowing both hope and shadow), tempo 56 BPM. Begin with a single, distant piano note that decays into reverb, as if heard from the bottom of a well. Layer in an extremely low synthesizer drone that pulses slowly, like something breathing in its sleep far beneath the earth. Add sparse, high-register piano notes that descend chromatically—a lullaby heard through walls, familiar yet wrong. Include a faint melodic fragment that will later appear in "start.wav," but here it sounds distant, distorted, as if remembered rather than heard. The mood should evoke standing outside a house at night, knowing something has changed inside but not yet knowing what. This is the sound of ancient patience, of something that has waited millennia and can wait a few minutes more. Reference Angelo Badalamenti's "Twin Peaks" theme for that sense of beauty concealing darkness, filtered through the subsonic dread of Lustmord.
+
+---
+
 ## [x] 1. office_ambient.wav
 **Measures:** 16 | **Loop:** Yes
 
