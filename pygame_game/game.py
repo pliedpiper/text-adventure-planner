@@ -12,6 +12,7 @@ from pathlib import Path
 
 # Initialize Pygame
 pygame.init()
+pygame.mixer.pre_init(frequency=44100, size=-16, channels=2, buffer=512)
 pygame.mixer.init()
 
 # ============================================================================
@@ -28,7 +29,7 @@ COLOR_WHITE = (208, 208, 208)
 COLOR_DARK_RED = (139, 0, 0)
 COLOR_HOVER_RED = (196, 30, 58)
 COLOR_DIM = (112, 112, 112)
-COLOR_TEXT_BOX = (20, 20, 20, 230)
+COLOR_TEXT_BOX = (20, 20, 20, 100)  # More transparent text box
 COLOR_CHOICE_BG = (30, 30, 30, 200)
 COLOR_CHOICE_HOVER = (50, 30, 30, 220)
 
@@ -46,10 +47,10 @@ FONT_SIZE_CHOICE = 22
 FONT_SIZE_TITLE = 48
 LINE_SPACING = 8
 
-# Text box dimensions
+# Layout dimensions
+IMAGE_AREA_HEIGHT = 400  # Height reserved for background image at top
 TEXT_BOX_MARGIN = 50
-TEXT_BOX_PADDING = 30
-TEXT_BOX_HEIGHT = 250
+TEXT_BOX_PADDING = 20
 
 # Choice dimensions
 CHOICE_WIDTH = 700
@@ -99,6 +100,11 @@ class TextRenderer:
             lines.append(' '.join(current_line))
 
         return lines
+
+    def get_height(self, text, line_spacing=LINE_SPACING):
+        """Calculate height of wrapped text without rendering."""
+        lines = self.wrap_text(text)
+        return len(lines) * (self.font.get_height() + line_spacing)
 
     def render(self, surface, text, x, y, line_spacing=LINE_SPACING):
         """Render wrapped text at position."""
@@ -157,13 +163,13 @@ class AssetManager:
         self._create_placeholder()
 
     def _create_placeholder(self):
-        """Create a dark placeholder background."""
-        self.placeholder_bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        """Create a dark placeholder background for image area."""
+        self.placeholder_bg = pygame.Surface((SCREEN_WIDTH, IMAGE_AREA_HEIGHT))
         self.placeholder_bg.fill(COLOR_BLACK)
 
         # Add subtle gradient
-        for y in range(SCREEN_HEIGHT):
-            alpha = int(20 * (1 - y / SCREEN_HEIGHT))
+        for y in range(IMAGE_AREA_HEIGHT):
+            alpha = int(20 * (1 - y / IMAGE_AREA_HEIGHT))
             pygame.draw.line(self.placeholder_bg, (alpha, alpha, alpha + 5),
                            (0, y), (SCREEN_WIDTH, y))
 
@@ -183,7 +189,22 @@ class AssetManager:
             if path.exists():
                 try:
                     img = pygame.image.load(str(path))
-                    img = pygame.transform.scale(img, (SCREEN_WIDTH, SCREEN_HEIGHT))
+                    # Scale to fit image area while preserving aspect ratio
+                    img_w, img_h = img.get_size()
+                    target_w, target_h = SCREEN_WIDTH, IMAGE_AREA_HEIGHT
+
+                    # Scale to fill width, then crop height if needed
+                    scale = target_w / img_w
+                    new_w = target_w
+                    new_h = int(img_h * scale)
+
+                    img = pygame.transform.scale(img, (new_w, new_h))
+
+                    # Crop to fit image area (center crop if taller)
+                    if new_h > target_h:
+                        crop_y = (new_h - target_h) // 2
+                        img = img.subsurface((0, crop_y, target_w, target_h))
+
                     self.backgrounds[name] = img
                     return img
                 except pygame.error:
@@ -275,7 +296,12 @@ class Game:
     """Main game class."""
 
     def __init__(self):
-        self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+        # Set up fullscreen display
+        display_info = pygame.display.Info()
+        global SCREEN_WIDTH, SCREEN_HEIGHT
+        SCREEN_WIDTH = display_info.current_w
+        SCREEN_HEIGHT = display_info.current_h
+        self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.FULLSCREEN)
         pygame.display.set_caption("Beneath the House")
         self.clock = pygame.time.Clock()
 
@@ -353,9 +379,19 @@ class Game:
         if not choices:
             return
 
-        # Calculate starting Y position
-        total_height = len(choices) * CHOICE_HEIGHT + (len(choices) - 1) * CHOICE_SPACING
-        start_y = SCREEN_HEIGHT - TEXT_BOX_HEIGHT - total_height - 30
+        # Calculate dynamic text box height for positioning
+        scene = self.get_current_scene()
+        text = scene.get("text", "")
+        text_height = self.text_renderer.get_height(text)
+        box_height = text_height + (TEXT_BOX_PADDING * 2)
+
+        # Position buttons between image area and text box
+        text_box_y = SCREEN_HEIGHT - box_height - 10
+        total_button_height = len(choices) * CHOICE_HEIGHT + (len(choices) - 1) * CHOICE_SPACING
+
+        # Center buttons vertically between image and text box
+        available_space = text_box_y - IMAGE_AREA_HEIGHT
+        start_y = IMAGE_AREA_HEIGHT + (available_space - total_button_height) // 2
 
         for i, choice in enumerate(choices):
             button = Button(
@@ -418,36 +454,39 @@ class Game:
             button.draw(self.screen)
 
     def draw_game(self):
-        """Draw the game screen."""
+        """Draw the game screen with split layout: image on top, UI below."""
         scene = self.get_current_scene()
 
-        # Background
+        # Fill background with dark color
+        self.screen.fill(COLOR_BLACK)
+
+        # Background image at top
         bg_name = scene.get("background", "").replace("backgrounds/", "").replace(".png", "")
         background = self.assets.load_background(bg_name)
         self.screen.blit(background, (0, 0))
 
-        # Darken for text readability
-        overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SRCALPHA)
-        overlay.fill((0, 0, 0, 100))
-        self.screen.blit(overlay, (0, 0))
+        # Calculate text box height
+        text = scene.get("text", "")
+        text_height = self.text_renderer.get_height(text)
+        box_height = text_height + (TEXT_BOX_PADDING * 2)
 
-        # Text box
+        # Text box at bottom
+        text_box_y = SCREEN_HEIGHT - box_height - 10
         text_box = pygame.Surface(
-            (SCREEN_WIDTH - TEXT_BOX_MARGIN * 2, TEXT_BOX_HEIGHT),
+            (SCREEN_WIDTH - TEXT_BOX_MARGIN * 2, box_height),
             pygame.SRCALPHA
         )
         text_box.fill(COLOR_TEXT_BOX)
-        self.screen.blit(text_box, (TEXT_BOX_MARGIN, SCREEN_HEIGHT - TEXT_BOX_HEIGHT - 20))
+        self.screen.blit(text_box, (TEXT_BOX_MARGIN, text_box_y))
 
         # Scene text
-        text = scene.get("text", "")
         self.text_renderer.render(
             self.screen, text,
             TEXT_BOX_MARGIN + TEXT_BOX_PADDING,
-            SCREEN_HEIGHT - TEXT_BOX_HEIGHT - 20 + TEXT_BOX_PADDING
+            text_box_y + TEXT_BOX_PADDING
         )
 
-        # Choice buttons
+        # Choice buttons (between image and text box)
         for button in self.choice_buttons:
             button.draw(self.screen)
 

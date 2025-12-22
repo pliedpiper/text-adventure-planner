@@ -1,5 +1,5 @@
 {
-  "current_scene": "elena_drawings",
+  "current_scene": "night2_pendant_ask",
   "endings_seen": [],
   "history": [
     "start",
@@ -8,22 +8,6 @@
     "office_day2",
     "office_day2_ignore",
     "night2_intro",
-    "night2_pendant_group",
-    "night2_concern",
-    "night2_ignore",
-    "office_day3",
-    "office_day3_text",
-    "night3_intro",
-    "night3_silent",
-    "night3_call_help",
-    "night3_confront_tapestry",
-    "night4_gone",
-    "night4_search_backyard",
-    "night4_search_drive",
-    "search_montage",
-    "search_marsh_interview",
-    "search_withhold",
-    "search_elena_call",
-    "elena_drawings"
+    "night2_pendant_ask"
   ]
 }

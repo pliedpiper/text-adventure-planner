@@ -28,7 +28,7 @@ Write a 16-measure intimate nocturne for a scene of two people watching televisi
 
 ---
 
-## [ ] 4. quiet.wav
+## [x] 4. quiet.wav
 **Measures:** 8 | **Loop:** Yes
 
 **Prompt:**
@@ -36,7 +36,7 @@ Compose an 8-measure piece that sounds like the uncomfortable silence between tw
 
 ---
 
-## [ ] 5. uneasy.wav
+## [x] 5. uneasy.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -44,7 +44,7 @@ Create a 16-measure piece for the moment you realize your home has become unfami
 
 ---
 
-## [ ] 6. tense.wav
+## [x] 6. tense.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -52,7 +52,7 @@ Write a 16-measure piece for an argument that hasn't quite become an argument. K
 
 ---
 
-## [ ] 7. tension.wav
+## [x] 7. tension.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -68,7 +68,7 @@ Create a 32-measure piece embodying ancient, patient wrongness. Key of D minor (
 
 ---
 
-## [ ] 9. somber.wav
+## [x] 9. somber.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -76,7 +76,7 @@ Write a 16-measure piece for grief without closure. Key of G minor, tempo 62 BPM
 
 ---
 
-## [ ] 10. grief.wav
+## [x] 10. grief.wav
 **Measures:** 8 | **Loop:** No (plays once)
 
 **Prompt:**
@@ -84,7 +84,7 @@ Compose an 8-measure piece of raw, concentrated anguish for the moment of readin
 
 ---
 
-## [ ] 11. emptiness.wav
+## [x] 11. emptiness.wav
 **Measures:** 16 | **Loop:** Yes
 
 **Prompt:**
@@ -100,7 +100,7 @@ Write a 16-measure piece for the moment the impossible becomes real. Key of B mi
 
 ---
 
-## [ ] 13. descent.wav
+## [x] 13. descent.wav
 **Measures:** 32 | **Loop:** Yes
 
 **Prompt:**
