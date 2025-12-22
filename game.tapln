@@ -3,7 +3,7 @@
  "id": "office_day1",
  "background": "backgrounds/office_day.png",
  "music": "music/office_ambient.wav",
- "text": "Another day at the office. You've been staring at the same spreadsheet for twenty minutes, but the numbers keep blurring together. Your mind keeps drifting to Morgan, the way she looked this morning, still in bed when you left. Tired. Always tired now. A coworker pauses by your desk. \"Hey, you okay? You seem... somewhere else today.\"",
+ "text": "Another day at the office. You've been staring at the same spreadsheet for twenty minutes, but the numbers keep blurring together. Your mind keeps drifting to Emery, the way she looked this morning, still in bed when you left. Tired. Always tired now. A coworker pauses by your desk. \"Hey, you okay? You seem... somewhere else today.\"",
  "choices": [
  {
  "label": "\"I'm fine, just tired.\"",
@@ -21,7 +21,7 @@
  "id": "office_day1_dismiss",
  "background": "backgrounds/office_day.png",
  "music": "music/office_ambient.wav",
- "text": "Your coworker nods, unconvinced but unwilling to push. \"Okay. Well, let me know if you need anything.\" They walk away. You turn back to the spreadsheet, but now all you can think about is how you said the same thing to Morgan last week. 'I'm fine.' Neither of you believed it then either. The clock moves slowly. Finally, 5 PM. Time to go home.",
+ "text": "Your coworker nods, unconvinced but unwilling to push. \"Okay. Well, let me know if you need anything.\" They walk away. You turn back to the spreadsheet, but now all you can think about is how you said the same thing to Emery last week. 'I'm fine.' Neither of you believed it then either. The clock moves slowly. Finally, 5 PM. Time to go home.",
  "choices": [
  {
  "label": "Head home",
@@ -49,7 +49,7 @@
  "id": "start",
  "background": "backgrounds/start.png",
  "music": "music/start.wav",
- "text": "You pull into the driveway at 7:43 PM. Late again. The porch light is on. Morgan remembered tonight. Inside, the house smells like reheated soup. Something from a can. The TV murmurs from the living room. You find Morgan on the couch, wrapped in the old blue blanket from your parents' house. She looks up when you come in. Tired, but present. A good day, then. You've learned to recognize them. \"Hey. There's soup if you want some.\" You drop your bag by the door. Ask about her day. \"Actually decent.\" She shifts to make room for you, though you haven't sat yet. \"I found this online group. Support thing, for people with... you know. Chronic stuff. It's nice. Talking to people who get it.\"",
+ "text": "You pull into the driveway at 7:43 PM. Late again. The porch light is on. Emery remembered tonight. Inside, the house smells like reheated soup. Something from a can. The TV murmurs from the living room. You find Emery on the couch, wrapped in the old blue blanket from your parents' house. She looks up when you come in. Tired, but present. A good day, then. You've learned to recognize them. \"Hey. There's soup if you want some.\" You drop your bag by the door. Ask about her day. \"Actually decent.\" She shifts to make room for you, though you haven't sat yet. \"I found this online group. Support thing, for people with... you know. Chronic stuff. It's nice. Talking to people who get it.\"",
  "choices": [
  {
  "label": "\"That's great. I'm glad you found people to talk to.\"",
@@ -71,7 +71,7 @@
  "id": "scene1.1",
  "background": "backgrounds/start.png",
  "music": "music/start.wav",
- "text": "Morgan smiles. It reaches her eyes, rare, these days. \"Yeah. Me too.\" She pulls the blanket tighter. \"They're really welcoming. No pity, no toxic positivity. Just... understanding.\" You feel something loosen in your chest. Maybe you don't have to carry this alone. Later, as you're heading to bed, Morgan calls out from the couch. \"Hey. Want to watch something? There's this documentary about deep-sea creatures. Supposed to be really good.\" You have work early tomorrow. The kind of early that makes 6 AM feel like a personal insult.",
+ "text": "Emery smiles. It reaches her eyes, rare, these days. \"Yeah. Me too.\" She pulls the blanket tighter. \"They're really welcoming. No pity, no toxic positivity. Just... understanding.\" You feel something loosen in your chest. Maybe you don't have to carry this alone. Later, as you're heading to bed, Emery calls out from the couch. \"Hey. Want to watch something? There's this documentary about deep-sea creatures. Supposed to be really good.\" You have work early tomorrow. The kind of early that makes 6 AM feel like a personal insult.",
  "choices": [
  {
  "label": "Stay and watch the documentary.",
@@ -93,7 +93,7 @@
  "id": "scene1.2",
  "background": "backgrounds/start.png",
  "music": "music/start.wav",
- "text": "Morgan's expression flickers. Just for a second. \"Coping, mostly. Pain management. Acceptance.\" She shrugs. \"Normal stuff. Why?\" \"Just curious.\" \"Mm.\" She turns back to the TV. The openness from a moment ago has receded slightly. You're not sure why. Later, as you're heading to bed, Morgan calls out from the couch. \"Hey. Want to watch something? There's this documentary about deep-sea creatures. Supposed to be really good.\" You have work early tomorrow. The kind of early that makes 6 AM feel like a personal insult.",
+ "text": "Emery's expression flickers. Just for a second. \"Coping, mostly. Pain management. Acceptance.\" She shrugs. \"Normal stuff. Why?\" \"Just curious.\" \"Mm.\" She turns back to the TV. The openness from a moment ago has receded slightly. You're not sure why. Later, as you're heading to bed, Emery calls out from the couch. \"Hey. Want to watch something? There's this documentary about deep-sea creatures. Supposed to be really good.\" You have work early tomorrow. The kind of early that makes 6 AM feel like a personal insult.",
  "choices": [
  {
  "label": "Stay and watch the documentary.",
@@ -115,7 +115,7 @@
  "id": "scene1.3",
  "background": "backgrounds/start.png",
  "music": "music/start.wav",
- "text": "Morgan's jaw tightens. \"I'm sick, not stupid.\" \"That's not what I...\" \"I know.\" She exhales. \"Sorry. I just... I finally found something that helps, and I don't want to defend it already.\" The silence that follows has weight to it. Later, as you're heading to bed, Morgan calls out from the couch. Her voice is softer now. \"Hey. Want to watch something? There's this documentary about deep-sea creatures. Supposed to be really good.\" You have work early tomorrow. The kind of early that makes 6 AM feel like a personal insult.",
+ "text": "Emery's jaw tightens. \"I'm sick, not stupid.\" \"That's not what I...\" \"I know.\" She exhales. \"Sorry. I just... I finally found something that helps, and I don't want to defend it already.\" The silence that follows has weight to it. Later, as you're heading to bed, Emery calls out from the couch. Her voice is softer now. \"Hey. Want to watch something? There's this documentary about deep-sea creatures. Supposed to be really good.\" You have work early tomorrow. The kind of early that makes 6 AM feel like a personal insult.",
  "choices": [
  {
  "label": "Stay and watch the documentary.",
@@ -137,7 +137,7 @@
  "id": "scene1_movie_stay",
  "background": "backgrounds/living_room_warm.png",
  "music": "music/peaceful.wav",
- "text": "You settle onto the couch beside her. Morgan makes a small, pleased sound and shifts closer, sharing the blanket. The documentary is strange and beautiful, bioluminescent creatures pulsing in the dark, things that live where light never reaches. \"Imagine living down there,\" Morgan says quietly. \"In all that pressure. All that darkness. And you just... adapt.\" You're only half-watching. Mostly you're noticing how Morgan keeps scratching absently at her wrist. A new habit. The skin there looks raw. When the credits roll, she's asleep against your shoulder. You carry her to bed, careful not to wake her. She weighs less than she should.",
+ "text": "You settle onto the couch beside her. Emery makes a small, pleased sound and shifts closer, sharing the blanket. The documentary is strange and beautiful, bioluminescent creatures pulsing in the dark, things that live where light never reaches. \"Imagine living down there,\" Emery says quietly. \"In all that pressure. All that darkness. And you just... adapt.\" You're only half-watching. Mostly you're noticing how Emery keeps scratching absently at her wrist. A new habit. The skin there looks raw. When the credits roll, she's asleep against your shoulder. You carry her to bed, careful not to wake her. She weighs less than she should.",
  "choices": [
  {
  "label": "Continue",
@@ -151,7 +151,7 @@
  "id": "scene1_movie_decline",
  "background": "backgrounds/hallway_night.png",
  "music": "music/quiet.wav",
- "text": "\"I'm really sorry. I have that 6 AM...\" \"It's okay.\" Morgan's voice is light, practiced. \"I understand.\" But her eyes have already gone somewhere else. That look you've seen before, the one that says she expected this. That she's used to being left alone. \"We'll do something this weekend,\" you offer. \"Yeah.\" She turns back to the TV. \"Night.\" You lie in bed for a long time, staring at the ceiling, listening to the muffled sounds of whatever she's watching. Wondering when every small moment started feeling like a test you're failing.",
+ "text": "\"I'm really sorry. I have that 6 AM...\" \"It's okay.\" Emery's voice is light, practiced. \"I understand.\" But her eyes have already gone somewhere else. That look you've seen before, the one that says she expected this. That she's used to being left alone. \"We'll do something this weekend,\" you offer. \"Yeah.\" She turns back to the TV. \"Night.\" You lie in bed for a long time, staring at the ceiling, listening to the muffled sounds of whatever she's watching. Wondering when every small moment started feeling like a test you're failing.",
  "choices": [
  {
  "label": "Continue",
@@ -165,7 +165,7 @@
  "id": "scene1_movie_compromise",
  "background": "backgrounds/living_room_warm.png",
  "music": "music/peaceful.wav",
- "text": "You compromise on an old sitcom, something brainless and familiar. Morgan seems distracted the whole time, glancing at her phone occasionally. When it buzzes, she smiles at whatever she sees. \"Group chat,\" she explains when she catches you looking. \"Someone shared a really good article.\" \"About what?\" \"Just... coping stuff.\" She locks the phone. \"Mind if we finish this tomorrow? I'm actually kind of tired.\" You say goodnight, but something about the exchange leaves you unsettled. Not worried, exactly. Just... aware that something is shifting that you can't quite name.",
+ "text": "You compromise on an old sitcom, something brainless and familiar. Emery seems distracted the whole time, glancing at her phone occasionally. When it buzzes, she smiles at whatever she sees. \"Group chat,\" she explains when she catches you looking. \"Someone shared a really good article.\" \"About what?\" \"Just... coping stuff.\" She locks the phone. \"Mind if we finish this tomorrow? I'm actually kind of tired.\" You say goodnight, but something about the exchange leaves you unsettled. Not worried, exactly. Just... aware that something is shifting that you can't quite name.",
  "choices": [
  {
  "label": "Continue",
@@ -190,7 +190,7 @@
  "next_scene": "office_day2_ignore"
  },
  {
- "label": "Mention Morgan's new group.",
+ "label": "Mention Emery's new group.",
  "next_scene": "office_day2_mention"
  }
  ],
@@ -243,7 +243,7 @@
  "id": "night2_intro",
  "background": "backgrounds/house_exterior_night.png",
  "music": "music/uneasy.wav",
- "text": "One week later. You come home and the house feels different. The air is thick with something, incense, maybe. Earthy and unfamiliar. Sweet in a way that coats the back of your throat. The living room is dark. No TV. No lights. Morgan is sitting on the floor, cross-legged, facing the window. Her back is to you. She's more energetic than she's been in months. Practically vibrating with it. \"You're home.\" She doesn't turn around. \"I've been thinking about something all day. About acceptance.\" She stands, finally faces you. She's wearing something new, a pendant. A simple circle with a vertical line through it, hanging from a leather cord.",
+ "text": "One week later. You come home and the house feels different. The air is thick with something, incense, maybe. Earthy and unfamiliar. Sweet in a way that coats the back of your throat. The living room is dark. No TV. No lights. Emery is sitting on the floor, cross-legged, facing the window. Her back is to you. She's more energetic than she's been in months. Practically vibrating with it. \"You're home.\" She doesn't turn around. \"I've been thinking about something all day. About acceptance.\" She stands, finally faces you. She's wearing something new, a pendant. A simple circle with a vertical line through it, hanging from a leather cord.",
  "choices": [
  {
  "label": "\"That's new. Where'd you get it?\"",
@@ -265,7 +265,7 @@
  "id": "night2_pendant_ask",
  "background": "backgrounds/incense_dark.png",
  "music": "music/uneasy.wav",
- "text": "Morgan's hand goes to the pendant, protective. \"A friend gave it to me. From the group.\" She smiles, but there's something guarded in it. \"It's just a symbol. Helps me focus.\" \"Focus on what?\" \"On what matters.\" She turns away, moving toward the kitchen. \"The group has been talking about something interesting. About 'what's underneath.' How we spend so much energy fighting against things instead of accepting what's already there.\"",
+ "text": "Emery's hand goes to the pendant, protective. \"A friend gave it to me. From the group.\" She smiles, but there's something guarded in it. \"It's just a symbol. Helps me focus.\" \"Focus on what?\" \"On what matters.\" She turns away, moving toward the kitchen. \"The group has been talking about something interesting. About 'what's underneath.' How we spend so much energy fighting against things instead of accepting what's already there.\"",
  "choices": [
  {
  "label": "\"Try me. What are they telling you?\"",
@@ -287,7 +287,7 @@
  "id": "night2_pendant_silent",
  "background": "backgrounds/incense_dark.png",
  "music": "music/uneasy.wav",
- "text": "You don't mention the pendant. Your eyes trace its shape, circle, line, and file it away. Morgan seems to appreciate that you don't ask. Or maybe she doesn't notice at all. \"The group has been talking about something interesting,\" she continues. \"About 'what's underneath.' How we spend so much energy fighting against things instead of accepting what's already there.\" She looks at you expectantly. Waiting for a reaction.",
+ "text": "You don't mention the pendant. Your eyes trace its shape, circle, line, and file it away. Emery seems to appreciate that you don't ask. Or maybe she doesn't notice at all. \"The group has been talking about something interesting,\" she continues. \"About 'what's underneath.' How we spend so much energy fighting against things instead of accepting what's already there.\" She looks at you expectantly. Waiting for a reaction.",
  "choices": [
  {
  "label": "\"Try me. What are they telling you?\"",
@@ -309,7 +309,7 @@
  "id": "night2_pendant_group",
  "background": "backgrounds/incense_dark.png",
  "music": "music/uneasy.wav",
- "text": "Morgan stiffens slightly. \"Why do you say it like that?\" \"Like what?\" \"Like you think they're... I don't know. Selling me something.\" She shakes her head. \"It's just a symbol. It represents, \" She stops herself. \"Never mind. You wouldn't understand yet.\" The word 'yet' hangs in the air. \"The group has been talking about something interesting,\" she continues, her voice lighter now. Forced casual. \"About 'what's underneath.' How we spend so much energy fighting against things instead of accepting what's already there.\"",
+ "text": "Emery stiffens slightly. \"Why do you say it like that?\" \"Like what?\" \"Like you think they're... I don't know. Selling me something.\" She shakes her head. \"It's just a symbol. It represents, \" She stops herself. \"Never mind. You wouldn't understand yet.\" The word 'yet' hangs in the air. \"The group has been talking about something interesting,\" she continues, her voice lighter now. Forced casual. \"About 'what's underneath.' How we spend so much energy fighting against things instead of accepting what's already there.\"",
  "choices": [
  {
  "label": "\"Try me. What are they telling you?\"",
@@ -331,14 +331,14 @@
  "id": "night2_press",
  "background": "backgrounds/incense_dark.png",
  "music": "music/tense.wav",
- "text": "Morgan's smile doesn't waver, but her eyes go flat. \"You wouldn't understand. Not yet.\" \"That's not an answer.\" \"It's the only one I have.\" She moves past you toward the stairs. \"I'm tired. We can talk more tomorrow.\" But tomorrow, she won't mention it. And you'll be too afraid to ask. That night, you wake at 3 AM to the sound of footsteps upstairs. Not walking, pacing. Back and forth, back and forth. Then they stop. Somewhere near the water heater closet.",
+ "text": "Emery's smile doesn't waver, but her eyes go flat. \"You wouldn't understand. Not yet.\" \"That's not an answer.\" \"It's the only one I have.\" She moves past you toward the stairs. \"I'm tired. We can talk more tomorrow.\" But tomorrow, she won't mention it. And you'll be too afraid to ask. That night, you wake at 3 AM to the sound of footsteps upstairs. Not walking, pacing. Back and forth, back and forth. Then they stop. Somewhere near the water heater closet.",
  "choices": [
  {
- "label": "Get up and check on Morgan.",
+ "label": "Get up and check on Emery.",
  "next_scene": "night2_investigate"
  },
  {
- "label": "Call out from bed. \"Morgan? You okay?\"",
+ "label": "Call out from bed. \"Emery? You okay?\"",
  "next_scene": "night2_call_out"
  },
  {
@@ -353,14 +353,14 @@
  "id": "night2_let_go",
  "background": "backgrounds/incense_dark.png",
  "music": "music/uneasy.wav",
- "text": "You let it go. She seems happy, genuinely happy, for the first time in months. Whatever this group is doing for her, it's working. Isn't that what matters? \"I'm glad you found something that helps,\" you say. Morgan beams. \"I knew you'd understand.\" But later, lying in bed, you wonder if understanding and enabling are the same thing. At 3 AM, you wake to the sound of footsteps upstairs. Not walking, pacing. Back and forth, back and forth. Then they stop. Somewhere near the water heater closet.",
+ "text": "You let it go. She seems happy, genuinely happy, for the first time in months. Whatever this group is doing for her, it's working. Isn't that what matters? \"I'm glad you found something that helps,\" you say. Emery beams. \"I knew you'd understand.\" But later, lying in bed, you wonder if understanding and enabling are the same thing. At 3 AM, you wake to the sound of footsteps upstairs. Not walking, pacing. Back and forth, back and forth. Then they stop. Somewhere near the water heater closet.",
  "choices": [
  {
- "label": "Get up and check on Morgan.",
+ "label": "Get up and check on Emery.",
  "next_scene": "night2_investigate"
  },
  {
- "label": "Call out from bed. \"Morgan? You okay?\"",
+ "label": "Call out from bed. \"Emery? You okay?\"",
  "next_scene": "night2_call_out"
  },
  {
@@ -375,14 +375,14 @@
  "id": "night2_concern",
  "background": "backgrounds/incense_dark.png",
  "music": "music/tense.wav",
- "text": "\"This is starting to sound like...\" \"Like what?\" Morgan's voice sharpens. \"Like a cult? Like I'm too stupid to know when I'm being manipulated?\" \"That's not what I said.\" \"It's what you meant.\" She takes a breath. Forces calm. \"I'm sorry. I just... I finally feel like I'm getting somewhere. Like I'm not just waiting to die.\" The words hit you like a slap. \"Morgan...\" \"I'm tired.\" She's already heading for the stairs. \"Goodnight.\" That night, you wake at 3 AM to the sound of footsteps upstairs. Not walking, pacing. Back and forth, back and forth. Then they stop. Somewhere near the water heater closet.",
+ "text": "\"This is starting to sound like...\" \"Like what?\" Emery's voice sharpens. \"Like a cult? Like I'm too stupid to know when I'm being manipulated?\" \"That's not what I said.\" \"It's what you meant.\" She takes a breath. Forces calm. \"I'm sorry. I just... I finally feel like I'm getting somewhere. Like I'm not just waiting to die.\" The words hit you like a slap. \"Emery...\" \"I'm tired.\" She's already heading for the stairs. \"Goodnight.\" That night, you wake at 3 AM to the sound of footsteps upstairs. Not walking, pacing. Back and forth, back and forth. Then they stop. Somewhere near the water heater closet.",
  "choices": [
  {
- "label": "Get up and check on Morgan.",
+ "label": "Get up and check on Emery.",
  "next_scene": "night2_investigate"
  },
  {
- "label": "Call out from bed. \"Morgan? You okay?\"",
+ "label": "Call out from bed. \"Emery? You okay?\"",
  "next_scene": "night2_call_out"
  },
  {
@@ -397,7 +397,7 @@
  "id": "night2_investigate",
  "background": "backgrounds/hallway_dark.png",
  "music": "music/dread.wav",
- "text": "You ease out of bed, feet cold on the hardwood. The hallway is dark. Silent now. Morgan's door is closed. You press your ear to it, nothing. Just the soft rhythm of breathing. Asleep. But the footsteps were real. You know they were. You stand in the hallway for a long moment, listening. A faint draft brushes your ankles. Coming from... where? The water heater closet? But that's an interior wall. There's nowhere for a draft to come from. You go back to bed. You don't sleep.",
+ "text": "You ease out of bed, feet cold on the hardwood. The hallway is dark. Silent now. Emery's door is closed. You press your ear to it, nothing. Just the soft rhythm of breathing. Asleep. But the footsteps were real. You know they were. You stand in the hallway for a long moment, listening. A faint draft brushes your ankles. Coming from... where? The water heater closet? But that's an interior wall. There's nowhere for a draft to come from. You go back to bed. You don't sleep.",
  "choices": [
  {
  "label": "Continue",
@@ -411,7 +411,7 @@
  "id": "night2_call_out",
  "background": "backgrounds/bedroom_dark.png",
  "music": "music/dread.wav",
- "text": "\"Morgan?\" Your voice sounds too loud in the darkness. \"You okay?\" Silence. Then, from upstairs: \"Go back to sleep.\" Her voice is strange. Thick. Like she's speaking through water. \"What are you doing up there?\" A long pause. \"Just... thinking. Go back to sleep.\" You lie there, heart pounding, listening to the silence where footsteps used to be. Eventually, you drift off. Your dreams are full of circles. Concentric rings, spiraling down and down and down.",
+ "text": "\"Emery?\" Your voice sounds too loud in the darkness. \"You okay?\" Silence. Then, from upstairs: \"Go back to sleep.\" Her voice is strange. Thick. Like she's speaking through water. \"What are you doing up there?\" A long pause. \"Just... thinking. Go back to sleep.\" You lie there, heart pounding, listening to the silence where footsteps used to be. Eventually, you drift off. Your dreams are full of circles. Concentric rings, spiraling down and down and down.",
  "choices": [
  {
  "label": "Continue",
@@ -439,7 +439,7 @@
  "id": "office_day3",
  "background": "backgrounds/office_day.png",
  "music": "music/office_ambient.wav",
- "text": "You've barely slept. The circles from your dreams linger behind your eyes. At your desk, your hands keep freezing over the keyboard. Your boss appears at your shoulder. \"Can we talk in my office?\" The conversation is uncomfortable. Your performance. Your focus. Your recent 'distraction.' You're nodding along when your phone buzzes. Morgan. A text: \"Tonight is important. I wish you understood.\" Your boss is still talking, but you're not listening anymore.",
+ "text": "You've barely slept. The circles from your dreams linger behind your eyes. At your desk, your hands keep freezing over the keyboard. Your boss appears at your shoulder. \"Can we talk in my office?\" The conversation is uncomfortable. Your performance. Your focus. Your recent 'distraction.' You're nodding along when your phone buzzes. Emery. A text: \"Tonight is important. I wish you understood.\" Your boss is still talking, but you're not listening anymore.",
  "choices": [
  {
  "label": "Leave work immediately.",
@@ -450,7 +450,7 @@
  "next_scene": "office_day3_stay"
  },
  {
- "label": "Text Morgan back: \"What do you mean?\"",
+ "label": "Text Emery back: \"What do you mean?\"",
  "next_scene": "office_day3_text"
  }
  ],
@@ -503,7 +503,7 @@
  "id": "night3_intro",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/tension.wav",
- "text": "The next night, everything is different. You come home and the house is silent. No TV. No music. No incense. Just stillness. Morgan is sitting at the kitchen table, hands folded in front of her. Waiting. Her face is calm. Too calm. The kind of peace that feels practiced, like a mask made of serenity. \"Sit down,\" she says. \"I need to tell you something.\" You sit. The chair scrapes too loud in the quiet. \"I've been chosen,\" Morgan says. Her eyes are bright, feverish. \"The Threshold Assembly has shown me what waits below. I'm not afraid anymore.\" She reaches across the table. Her hand is ice cold. \"The illness isn't punishment. It's preparation.\"",
+ "text": "The next night, everything is different. You come home and the house is silent. No TV. No music. No incense. Just stillness. Emery is sitting at the kitchen table, hands folded in front of her. Waiting. Her face is calm. Too calm. The kind of peace that feels practiced, like a mask made of serenity. \"Sit down,\" she says. \"I need to tell you something.\" You sit. The chair scrapes too loud in the quiet. \"I've been chosen,\" Emery says. Her eyes are bright, feverish. \"The Threshold Assembly has shown me what waits below. I'm not afraid anymore.\" She reaches across the table. Her hand is ice cold. \"The illness isn't punishment. It's preparation.\"",
  "choices": [
  {
  "label": "\"This is insane. You're in a cult.\"",
@@ -529,7 +529,7 @@
  "id": "night3_anger",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/tension.wav",
- "text": "\"A cult? That's what you think?\" Morgan's voice is gentle, pitying. That's almost worse than anger. \"You're being manipulated. These people are taking advantage of you because you're sick and scared and...\" \"I'm not scared anymore. That's the point.\" She squeezes your hand, cold fingers pressing. \"When I'm gone, don't look for me.\" Your heart stops. \"What do you mean, 'when you're gone'?\" \"But if you do, \" She pauses. Seems to catch herself. \"Never mind.\"",
+ "text": "\"A cult? That's what you think?\" Emery's voice is gentle, pitying. That's almost worse than anger. \"You're being manipulated. These people are taking advantage of you because you're sick and scared and...\" \"I'm not scared anymore. That's the point.\" She squeezes your hand, cold fingers pressing. \"When I'm gone, don't look for me.\" Your heart stops. \"What do you mean, 'when you're gone'?\" \"But if you do, \" She pauses. Seems to catch herself. \"Never mind.\"",
  "choices": [
  {
  "label": "\"If I do, what? Finish the sentence.\"",
@@ -551,7 +551,7 @@
  "id": "night3_fear",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/tension.wav",
- "text": "Morgan's expression softens. For a moment, she looks like herself again, your sibling, tired and sick and scared. \"I know,\" she whispers. \"I know I'm scaring you. But I need you to understand. I'm not running from something. I'm running toward it.\" She squeezes your hand. \"When I'm gone, don't look for me.\" The words don't make sense. \"Gone where? Morgan, what are you...\" \"But if you do, \" She stops. Shakes her head. \"Never mind. It doesn't matter.\"",
+ "text": "Emery's expression softens. For a moment, she looks like herself again, your sibling, tired and sick and scared. \"I know,\" she whispers. \"I know I'm scaring you. But I need you to understand. I'm not running from something. I'm running toward it.\" She squeezes your hand. \"When I'm gone, don't look for me.\" The words don't make sense. \"Gone where? Emery, what are you...\" \"But if you do, \" She stops. Shakes her head. \"Never mind. It doesn't matter.\"",
  "choices": [
  {
  "label": "\"If I do, what? Finish the sentence.\"",
@@ -573,7 +573,7 @@
  "id": "night3_bargain",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/tension.wav",
- "text": "\"We haven't tried everything. There are specialists, clinical trials...\" \"Stop.\" Morgan's voice is firm but not unkind. \"I've accepted what's happening. You should too.\" \"I can't accept losing you.\" \"You won't.\" She smiles, strange and serene. \"Not really. Not the way you think.\" She takes your hand. \"When I'm gone, don't look for me. But if you do, \" A pause. Her eyes flicker toward the ceiling. Toward the upstairs hallway. \"Never mind.\"",
+ "text": "\"We haven't tried everything. There are specialists, clinical trials...\" \"Stop.\" Emery's voice is firm but not unkind. \"I've accepted what's happening. You should too.\" \"I can't accept losing you.\" \"You won't.\" She smiles, strange and serene. \"Not really. Not the way you think.\" She takes your hand. \"When I'm gone, don't look for me. But if you do, \" A pause. Her eyes flicker toward the ceiling. Toward the upstairs hallway. \"Never mind.\"",
  "choices": [
  {
  "label": "\"If I do, what? Finish the sentence.\"",
@@ -595,7 +595,7 @@
  "id": "night3_silent",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/tension.wav",
- "text": "You say nothing. Just listen. Watch. Morgan seems to appreciate this. Or maybe she's beyond caring about your reaction. \"They showed me what's underneath,\" she continues. \"Under the fear. Under the pain. Under... everything.\" Her eyes are distant, focused on something you can't see. \"When I'm gone, don't look for me.\" The words don't land right. They feel rehearsed. \"But if you do, \" She stops. Looks at you, really looks, for the first time all night. \"Never mind. You probably won't.\"",
+ "text": "You say nothing. Just listen. Watch. Emery seems to appreciate this. Or maybe she's beyond caring about your reaction. \"They showed me what's underneath,\" she continues. \"Under the fear. Under the pain. Under... everything.\" Her eyes are distant, focused on something you can't see. \"When I'm gone, don't look for me.\" The words don't land right. They feel rehearsed. \"But if you do, \" She stops. Looks at you, really looks, for the first time all night. \"Never mind. You probably won't.\"",
  "choices": [
  {
  "label": "\"If I do, what? Finish the sentence.\"",
@@ -617,7 +617,7 @@
  "id": "night3_press_gone",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/dread.wav",
- "text": "Morgan holds your gaze for a long moment. Then, quietly: \"Follow the warm air.\" \"What does that mean?\" But she's already standing, already moving toward the stairs. \"I'm tired. Let's talk tomorrow.\" Before you go to bed, you notice something new in the upstairs hallway. A large woven tapestry, hung near the water heater closet. Abstract patterns in deep reds and browns. \"For energy flow,\" Morgan explains when she catches you looking. \"It helps balance the space.\"",
+ "text": "Emery holds your gaze for a long moment. Then, quietly: \"Follow the warm air.\" \"What does that mean?\" But she's already standing, already moving toward the stairs. \"I'm tired. Let's talk tomorrow.\" Before you go to bed, you notice something new in the upstairs hallway. A large woven tapestry, hung near the water heater closet. Abstract patterns in deep reds and browns. \"For energy flow,\" Emery explains when she catches you looking. \"It helps balance the space.\"",
  "choices": [
  {
  "label": "Examine the tapestry closely.",
@@ -639,7 +639,7 @@
  "id": "night3_denial",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/tension.wav",
- "text": "\"You're not going anywhere.\" You say it like a command. Like you have any control over this. Over anything. Morgan just smiles. Sad and patient. The way you might smile at a child who doesn't understand death yet. \"Okay,\" she says. \"Sure.\" She stands. \"I'm tired. Let's talk tomorrow.\" Before you go to bed, you notice something new in the upstairs hallway. A large woven tapestry, hung near the water heater closet. Abstract patterns in deep reds and browns. \"For energy flow,\" Morgan says, appearing behind you. \"It helps balance the space.\"",
+ "text": "\"You're not going anywhere.\" You say it like a command. Like you have any control over this. Over anything. Emery just smiles. Sad and patient. The way you might smile at a child who doesn't understand death yet. \"Okay,\" she says. \"Sure.\" She stands. \"I'm tired. Let's talk tomorrow.\" Before you go to bed, you notice something new in the upstairs hallway. A large woven tapestry, hung near the water heater closet. Abstract patterns in deep reds and browns. \"For energy flow,\" Emery says, appearing behind you. \"It helps balance the space.\"",
  "choices": [
  {
  "label": "Examine the tapestry closely.",
@@ -661,7 +661,7 @@
  "id": "night3_call_help",
  "background": "backgrounds/kitchen_table_waiting.png",
  "music": "music/tension.wav",
- "text": "\"I'm calling someone. This isn't, you need help. Real help.\" \"I have real help.\" Morgan stands, her chair scraping back. \"The kind you can't give me. The kind no doctor can.\" \"Morgan, please...\" \"I'm tired.\" Her voice is final. \"We can talk tomorrow. Or not.\" She heads for the stairs. You stand in the empty kitchen, phone in hand, not knowing who to call. Who would believe this? Before bed, you notice something new in the upstairs hallway. A large woven tapestry, hung near the water heater closet. Abstract patterns in deep reds and browns. \"Energy flow,\" Morgan says from her doorway. \"It helps balance the space.\"",
+ "text": "\"I'm calling someone. This isn't, you need help. Real help.\" \"I have real help.\" Emery stands, her chair scraping back. \"The kind you can't give me. The kind no doctor can.\" \"Emery, please...\" \"I'm tired.\" Her voice is final. \"We can talk tomorrow. Or not.\" She heads for the stairs. You stand in the empty kitchen, phone in hand, not knowing who to call. Who would believe this? Before bed, you notice something new in the upstairs hallway. A large woven tapestry, hung near the water heater closet. Abstract patterns in deep reds and browns. \"Energy flow,\" Emery says from her doorway. \"It helps balance the space.\"",
  "choices": [
  {
  "label": "Examine the tapestry closely.",
@@ -683,7 +683,7 @@
  "id": "night3_examine_tapestry",
  "background": "backgrounds/tapestry_hallway.png",
  "music": "music/dread.wav",
- "text": "You step closer. Run your hand along the fabric. It's heavier than it looks. Warmer, too, like it's been hanging in sunlight, though there are no windows here. The tapestry covers more wall than necessary. The edges overlap, hiding... what? The water heater closet door should be visible. It isn't. \"Goodnight,\" Morgan says, and closes her door. You stand in the hallway a long time, your hand pressed against the warm fabric, trying to convince yourself you don't feel a draft behind it. Breathing slowly from somewhere you can't see.",
+ "text": "You step closer. Run your hand along the fabric. It's heavier than it looks. Warmer, too, like it's been hanging in sunlight, though there are no windows here. The tapestry covers more wall than necessary. The edges overlap, hiding... what? The water heater closet door should be visible. It isn't. \"Goodnight,\" Emery says, and closes her door. You stand in the hallway a long time, your hand pressed against the warm fabric, trying to convince yourself you don't feel a draft behind it. Breathing slowly from somewhere you can't see.",
  "choices": [
  {
  "label": "Continue",
@@ -697,7 +697,7 @@
  "id": "night3_accept_tapestry",
  "background": "backgrounds/tapestry_hallway.png",
  "music": "music/uneasy.wav",
- "text": "\"Okay,\" you say. Because what else can you say? It's fabric on a wall. Weird, but harmless. Right? Morgan smiles. \"Goodnight.\" \"Goodnight.\" But you don't sleep well. You dream of walls that breathe. Of doors that open from the inside.",
+ "text": "\"Okay,\" you say. Because what else can you say? It's fabric on a wall. Weird, but harmless. Right? Emery smiles. \"Goodnight.\" \"Goodnight.\" But you don't sleep well. You dream of walls that breathe. Of doors that open from the inside.",
  "choices": [
  {
  "label": "Continue",
@@ -711,7 +711,7 @@
  "id": "night3_confront_tapestry",
  "background": "backgrounds/tapestry_hallway.png",
  "music": "music/tension.wav",
- "text": "\"What's behind this?\" You reach for the edge of the tapestry. Morgan's hand catches your wrist. Her grip is stronger than it should be. \"Please.\" Her voice is barely a whisper. \"Not yet. I'm not ready.\" \"Ready for what?\" But she's already letting go. Already retreating to her room. \"Goodnight,\" she says. The door closes. You stand alone in the hallway, staring at the tapestry, feeling the warmth bleeding through the fabric. Telling yourself it's the water heater. That's all. Just the water heater.",
+ "text": "\"What's behind this?\" You reach for the edge of the tapestry. Emery's hand catches your wrist. Her grip is stronger than it should be. \"Please.\" Her voice is barely a whisper. \"Not yet. I'm not ready.\" \"Ready for what?\" But she's already letting go. Already retreating to her room. \"Goodnight,\" she says. The door closes. You stand alone in the hallway, staring at the tapestry, feeling the warmth bleeding through the fabric. Telling yourself it's the water heater. That's all. Just the water heater.",
  "choices": [
  {
  "label": "Continue",
@@ -725,7 +725,7 @@
  "id": "night4_gone",
  "background": "backgrounds/empty_house_dark.png",
  "music": "music/dread.wav",
- "text": "You come home the next night. The house is dark. Silent. Wrong. No lights. No TV murmur. No soup smell. Just emptiness pressing against every surface. \"Morgan?\" Your voice echoes. No answer. You check the living room. The kitchen. The backyard. Nothing. Her medication is on the counter. Her phone on the nightstand. Her shoes by the door. But Morgan is gone.",
+ "text": "You come home the next night. The house is dark. Silent. Wrong. No lights. No TV murmur. No soup smell. Just emptiness pressing against every surface. \"Emery?\" Your voice echoes. No answer. You check the living room. The kitchen. The backyard. Nothing. Her medication is on the counter. Her phone on the nightstand. Her shoes by the door. But Emery is gone.",
  "choices": [
  {
  "label": "Check her bedroom first.",
@@ -855,7 +855,7 @@
  "id": "search_montage",
  "background": "backgrounds/police_station.png",
  "music": "music/somber.wav",
- "text": "Two weeks blur together. Police interviews. Search parties. Flyers on every telephone pole in a five-mile radius. Detective Marsh leads the investigation. He's kind, thorough, and increasingly pessimistic with each passing day. They investigate the Threshold Assembly. Find a defunct website. A P.O. box that leads nowhere. \"It's like they never existed,\" Marsh tells you. \"Except in her computer history. And a few others like her.\" Others. Like Morgan. All missing. All with chronic illnesses. All vanished without a trace.",
+ "text": "Two weeks blur together. Police interviews. Search parties. Flyers on every telephone pole in a five-mile radius. Detective Marsh leads the investigation. He's kind, thorough, and increasingly pessimistic with each passing day. They investigate the Threshold Assembly. Find a defunct website. A P.O. box that leads nowhere. \"It's like they never existed,\" Marsh tells you. \"Except in her computer history. And a few others like her.\" Others. Like Emery. All missing. All with chronic illnesses. All vanished without a trace.",
  "choices": [
  {
  "label": "Continue",
@@ -869,7 +869,7 @@
  "id": "search_marsh_interview",
  "background": "backgrounds/police_station.png",
  "music": "music/somber.wav",
- "text": "Detective Marsh sits across from you. Coffee cups and case files between you. \"I need to ask about Morgan's mental state,\" he says. \"In the weeks before she disappeared.\"",
+ "text": "Detective Marsh sits across from you. Coffee cups and case files between you. \"I need to ask about Emery's mental state,\" he says. \"In the weeks before she disappeared.\"",
  "choices": [
  {
  "label": "Tell him everything, the cult, the pendant, the strange behavior.",
@@ -933,7 +933,7 @@
  "id": "search_elena_call",
  "background": "backgrounds/living_room_day.png",
  "music": "music/somber.wav",
- "text": "Elena calls you a week later. \"I need to tell you something,\" she says. \"About Morgan. In the weeks before... before. She was drawing something. Obsessively. Whenever you weren't home.\"",
+ "text": "Elena calls you a week later. \"I need to tell you something,\" she says. \"About Emery. In the weeks before... before. She was drawing something. Obsessively. Whenever you weren't home.\"",
  "choices": [
  {
  "label": "\"What was she drawing?\"",
@@ -983,7 +983,7 @@
  "id": "elena_assembly",
  "background": "backgrounds/living_room_day.png",
  "music": "music/dread.wav",
- "text": "\"The Threshold Assembly?\" Elena sounds confused. \"No. Never by name. But she talked about 'the group.' About how they understood her in ways no one else could.\" She pauses. \"She said they showed her something. Something under the house. I thought she meant... metaphorically. The subconscious or something.\" Under the house. The words echo. \"Elena,\" you say slowly. \"Did Morgan ever mention anything about tunnels?\" Silence. Then: \"She was drawing them. For weeks. Tunnels going down.\"",
+ "text": "\"The Threshold Assembly?\" Elena sounds confused. \"No. Never by name. But she talked about 'the group.' About how they understood her in ways no one else could.\" She pauses. \"She said they showed her something. Something under the house. I thought she meant... metaphorically. The subconscious or something.\" Under the house. The words echo. \"Elena,\" you say slowly. \"Did Emery ever mention anything about tunnels?\" Silence. Then: \"She was drawing them. For weeks. Tunnels going down.\"",
  "choices": [
  {
  "label": "Continue",
@@ -997,7 +997,7 @@
  "id": "funeral",
  "background": "backgrounds/funeral_empty.png",
  "music": "music/grief.wav",
- "text": "Two weeks pass. No body is found. The search is called off. Morgan is declared dead. The funeral is small. A handful of people who knew her from before she got sick. Some coworkers. Elena, crying quietly in the back. Detective Marsh, standing at the edges, watching. The casket is empty. A symbolic burial for someone who simply ceased to exist. Afterward, a stranger approaches you. Well-dressed. Calm. They offer condolences. \"Morgan spoke very highly of you,\" they say. \"They wanted you to have this.\" They hand you an envelope.",
+ "text": "Two weeks pass. No body is found. The search is called off. Emery is declared dead. The funeral is small. A handful of people who knew her from before she got sick. Some coworkers. Elena, crying quietly in the back. Detective Marsh, standing at the edges, watching. The casket is empty. A symbolic burial for someone who simply ceased to exist. Afterward, a stranger approaches you. Well-dressed. Calm. They offer condolences. \"Emery spoke very highly of you,\" they say. \"They wanted you to have this.\" They hand you an envelope.",
  "choices": [
  {
  "label": "Take it and open it immediately.",
@@ -1019,7 +1019,7 @@
  "id": "funeral_open_now",
  "background": "backgrounds/funeral_empty.png",
  "music": "music/dread.wav",
- "text": "You tear it open right there, fingers trembling. Inside is a single piece of paper. A hand-drawn map of your house's second floor. An X marks the water heater closet. On the back, written in Morgan's handwriting: \"THE DOOR OPENS FROM INSIDE.\" When you look up, the stranger is gone. Vanished into the crowd of mourners. As if they were never there at all.",
+ "text": "You tear it open right there, fingers trembling. Inside is a single piece of paper. A hand-drawn map of your house's second floor. An X marks the water heater closet. On the back, written in Emery's handwriting: \"THE DOOR OPENS FROM INSIDE.\" When you look up, the stranger is gone. Vanished into the crowd of mourners. As if they were never there at all.",
  "choices": [
  {
  "label": "Show the map to Detective Marsh.",
@@ -1041,7 +1041,7 @@
  "id": "funeral_open_later",
  "background": "backgrounds/living_room_warm.png",
  "music": "music/dread.wav",
- "text": "You pocket the envelope. Wait until you're home, alone, before opening it. Inside is a single piece of paper. A hand-drawn map of your house's second floor. An X marks the water heater closet. On the back, in Morgan's handwriting: \"THE DOOR OPENS FROM INSIDE.\" You stare at the words for a long time. Follow the warm air. The door opens from inside. It's starting to make a terrible kind of sense.",
+ "text": "You pocket the envelope. Wait until you're home, alone, before opening it. Inside is a single piece of paper. A hand-drawn map of your house's second floor. An X marks the water heater closet. On the back, in Emery's handwriting: \"THE DOOR OPENS FROM INSIDE.\" You stare at the words for a long time. Follow the warm air. The door opens from inside. It's starting to make a terrible kind of sense.",
  "choices": [
  {
  "label": "Show the map to Detective Marsh.",
@@ -1063,7 +1063,7 @@
  "id": "funeral_refuse",
  "background": "backgrounds/funeral_empty.png",
  "music": "music/tension.wav",
- "text": "\"Who are you? How do you know Morgan?\" The stranger just smiles. Patient. Unbothered. \"Someone who understands what Morgan was going through. Better than most.\" They press the envelope into your hand before you can refuse again. \"When you're ready,\" they say. \"You'll understand.\" They walk away. By the time you think to follow, they've disappeared into the crowd. The envelope feels warm in your hand. You open it later, alone. A map of your house. An X on the water heater closet. And on the back: \"THE DOOR OPENS FROM INSIDE.\"",
+ "text": "\"Who are you? How do you know Emery?\" The stranger just smiles. Patient. Unbothered. \"Someone who understands what Emery was going through. Better than most.\" They press the envelope into your hand before you can refuse again. \"When you're ready,\" they say. \"You'll understand.\" They walk away. By the time you think to follow, they've disappeared into the crowd. The envelope feels warm in your hand. You open it later, alone. A map of your house. An X on the water heater closet. And on the back: \"THE DOOR OPENS FROM INSIDE.\"",
  "choices": [
  {
  "label": "Show the map to Detective Marsh.",
@@ -1127,7 +1127,7 @@
  "id": "months_later",
  "background": "backgrounds/house_day_grey.png",
  "music": "music/emptiness.wav",
- "text": "Three months pass. The world moves on. You don't. You live in a fog. Work. Home. Sleep. Repeat. The house feels different now, emptier, obviously, but something else too. Like it's watching. Waiting. Morgan's things are still everywhere. You can't bring yourself to pack them up. Can't bring yourself to stay, either. Most nights you sleep on the couch, TV murmuring, trying not to think about the upstairs hallway. The tapestry you still haven't moved.",
+ "text": "Three months pass. The world moves on. You don't. You live in a fog. Work. Home. Sleep. Repeat. The house feels different now, emptier, obviously, but something else too. Like it's watching. Waiting. Emery's things are still everywhere. You can't bring yourself to pack them up. Can't bring yourself to stay, either. Most nights you sleep on the couch, TV murmuring, trying not to think about the upstairs hallway. The tapestry you still haven't moved.",
  "choices": [
  {
  "label": "Drinking. The nights are easier with something to blur them.",
@@ -1138,7 +1138,7 @@
  "next_scene": "coping_working"
  },
  {
- "label": "Going through Morgan's things, looking for answers.",
+ "label": "Going through Emery's things, looking for answers.",
  "next_scene": "coping_searching"
  },
  {
@@ -1283,7 +1283,7 @@
  "id": "wrongness_pendant",
  "background": "backgrounds/bedroom_day.png",
  "music": "music/dread.wav",
- "text": "A few days later, you notice something wrong in Morgan's room. The pendant, you kept it after she disappeared, couldn't bring yourself to throw it away, was in the nightstand drawer. Locked. You're certain. Now it's on top of the nightstand. Facing the door. As if it's been waiting for you.",
+ "text": "A few days later, you notice something wrong in Emery's room. The pendant, you kept it after she disappeared, couldn't bring yourself to throw it away, was in the nightstand drawer. Locked. You're certain. Now it's on top of the nightstand. Facing the door. As if it's been waiting for you.",
  "choices": [
  {
  "label": "Throw it away.",
@@ -1294,7 +1294,7 @@
  "next_scene": "pendant_lock"
  },
  {
- "label": "Wear it. Feel closer to Morgan.",
+ "label": "Wear it. Feel closer to Emery.",
  "next_scene": "pendant_wear"
  },
  {
@@ -1337,7 +1337,7 @@
  "id": "pendant_wear",
  "background": "backgrounds/mirror.png",
  "music": "music/dread.wav",
- "text": "You slip the cord over your head. The pendant settles against your chest, warm despite the cold room. For a moment, you feel something, a connection. A presence. Morgan, maybe. Or something wearing her memory like a coat. The warmth spreads through you. It feels like understanding. It feels like coming home.",
+ "text": "You slip the cord over your head. The pendant settles against your chest, warm despite the cold room. For a moment, you feel something, a connection. A presence. Emery, maybe. Or something wearing her memory like a coat. The warmth spreads through you. It feels like understanding. It feels like coming home.",
  "choices": [
  {
  "label": "Continue",
@@ -1365,7 +1365,7 @@
  "id": "wrongness_tapestry",
  "background": "backgrounds/tapestry_hallway.png",
  "music": "music/horror.wav",
- "text": "Days pass. The wrongness accumulates like dust. Sounds in the walls. Objects that move when you're not looking. Dreams of spiraling tunnels and something waiting at the bottom. Then the water heater breaks. Of course it does. You're doing laundry when you notice the tapestry moving. Billowing slightly, like there's a draft behind it. Warm air seeps around its edges. The kind of warmth that shouldn't exist in a hallway. The kind Morgan told you to follow.",
+ "text": "Days pass. The wrongness accumulates like dust. Sounds in the walls. Objects that move when you're not looking. Dreams of spiraling tunnels and something waiting at the bottom. Then the water heater breaks. Of course it does. You're doing laundry when you notice the tapestry moving. Billowing slightly, like there's a draft behind it. Warm air seeps around its edges. The kind of warmth that shouldn't exist in a hallway. The kind Emery told you to follow.",
  "choices": [
  {
  "label": "Tear down the tapestry immediately.",
@@ -1503,7 +1503,7 @@
  "id": "discovery_prepare",
  "background": "backgrounds/bedroom_dark.png",
  "music": "music/dread.wav",
- "text": "You step back. Close the door, but not all the way. Tomorrow. Tomorrow you'll be ready. You gather supplies: flashlight, phone, water bottle. Sensible things. Human things. You try to sleep. Dream of Morgan's face, smiling in the dark. \"You came,\" she says. \"I knew you would.\" You wake at 3:17 AM. You're already walking toward the stairs.",
+ "text": "You step back. Close the door, but not all the way. Tomorrow. Tomorrow you'll be ready. You gather supplies: flashlight, phone, water bottle. Sensible things. Human things. You try to sleep. Dream of Emery's face, smiling in the dark. \"You came,\" she says. \"I knew you would.\" You wake at 3:17 AM. You're already walking toward the stairs.",
  "choices": [
  {
  "label": "Continue",
@@ -1557,7 +1557,7 @@
  "choices": [
  {
  "label": "Continue",
- "next_scene": "level1_morgan_journal"
+ "next_scene": "level1_Emery_journal"
  }
  ],
  "x": 140.0,
@@ -1567,11 +1567,11 @@
  "id": "level1_search",
  "background": "backgrounds/antechamber.png",
  "music": "music/descent.wav",
- "text": "You circle the chamber, running your hands along the walls. Stone. Solid. Ancient. But there, in the far corner, a tunnel. Narrow, barely wide enough for one person, sloping further down into darkness. The warm air flows from this tunnel. And something else. A faint sound, like distant humming. A melody you almost recognize. But first, you notice the journals scattered on the ground. Morgan's handwriting catches your eye.",
+ "text": "You circle the chamber, running your hands along the walls. Stone. Solid. Ancient. But there, in the far corner, a tunnel. Narrow, barely wide enough for one person, sloping further down into darkness. The warm air flows from this tunnel. And something else. A faint sound, like distant humming. A melody you almost recognize. But first, you notice the journals scattered on the ground. Emery's handwriting catches your eye.",
  "choices": [
  {
  "label": "Continue",
- "next_scene": "level1_morgan_journal"
+ "next_scene": "level1_Emery_journal"
  }
  ],
  "x": 280.0,
@@ -1581,21 +1581,21 @@
  "id": "level1_call",
  "background": "backgrounds/antechamber.png",
  "music": "music/horror.wav",
- "text": "\"Hello?\" Your voice echoes. Bounces off stone walls and returns to you, distorted. Hollow. No answer. Just the echo dying slowly, and then, so faint you might have imagined it, something that sounds like your name. Called from very far below. You don't call out again. Instead, your eyes fall on the journals scattered across the ground. One of them has Morgan's handwriting on the cover.",
+ "text": "\"Hello?\" Your voice echoes. Bounces off stone walls and returns to you, distorted. Hollow. No answer. Just the echo dying slowly, and then, so faint you might have imagined it, something that sounds like your name. Called from very far below. You don't call out again. Instead, your eyes fall on the journals scattered across the ground. One of them has Emery's handwriting on the cover.",
  "choices": [
  {
  "label": "Continue",
- "next_scene": "level1_morgan_journal"
+ "next_scene": "level1_Emery_journal"
  }
  ],
  "x": 420.0,
  "y": 4480.0
  },
- "level1_morgan_journal": {
- "id": "level1_morgan_journal",
+ "level1_Emery_journal": {
+ "id": "level1_Emery_journal",
  "background": "backgrounds/antechamber.png",
  "music": "music/grief.wav",
- "text": "You find Morgan's journal. Her handwriting fills the pages, cramped, urgent, increasingly unhinged. The last entry reads: \"They're wrong about one thing. It's not about dying. It's about going deeper. The lowest point is where you become. I'm not afraid. I was never afraid. I was just waiting to understand.\" The page after that is blank. But on the back cover, in tiny letters: \"Follow me down.\"",
+ "text": "You find Emery's journal. Her handwriting fills the pages, cramped, urgent, increasingly unhinged. The last entry reads: \"They're wrong about one thing. It's not about dying. It's about going deeper. The lowest point is where you become. I'm not afraid. I was never afraid. I was just waiting to understand.\" The page after that is blank. But on the back cover, in tiny letters: \"Follow me down.\"",
  "choices": [
  {
  "label": "Take the journal with you.",
@@ -1617,7 +1617,7 @@
  "id": "level1_more_entries",
  "background": "backgrounds/antechamber.png",
  "music": "music/dread.wav",
- "text": "You read more. Hours pass, maybe, it's hard to tell down here. The entries paint a picture: the Threshold Assembly found people like Morgan. Sick. Desperate. Searching for meaning in their pain. They offered answers. Showed them the tunnels beneath their own homes. Doors that \"opened from inside.\" And one by one, the faithful went down. Descending toward something that waited. Something that wanted. None of them came back up. At least, not as themselves.",
+ "text": "You read more. Hours pass, maybe, it's hard to tell down here. The entries paint a picture: the Threshold Assembly found people like Emery. Sick. Desperate. Searching for meaning in their pain. They offered answers. Showed them the tunnels beneath their own homes. Doors that \"opened from inside.\" And one by one, the faithful went down. Descending toward something that waited. Something that wanted. None of them came back up. At least, not as themselves.",
  "choices": [
  {
  "label": "Continue deeper.",
@@ -1699,7 +1699,7 @@
  "id": "level2_photos",
  "background": "backgrounds/cult_photograph.png",
  "music": "music/grief.wav",
- "text": "The photographs cover one wall. Dozens of them. People in robes, standing together. Smiling. Their faces are calm, peaceful, emptied of fear. And there, in the center of one photo, is Morgan. Standing with the others. Smiling that same empty smile. Behind the group, a massive dark opening. A pit, yawning wide. Morgan's hand is raised, pointing toward it. Inviting you to follow.",
+ "text": "The photographs cover one wall. Dozens of them. People in robes, standing together. Smiling. Their faces are calm, peaceful, emptied of fear. And there, in the center of one photo, is Emery. Standing with the others. Smiling that same empty smile. Behind the group, a massive dark opening. A pit, yawning wide. Emery's hand is raised, pointing toward it. Inviting you to follow.",
  "choices": [
  {
  "label": "Take the photograph.",
@@ -1710,7 +1710,7 @@
  "next_scene": "level2_recognize"
  },
  {
- "label": "Keep moving. You need to find Morgan.",
+ "label": "Keep moving. You need to find Emery.",
  "next_scene": "level3_cathedral"
  }
  ],
@@ -1721,7 +1721,7 @@
  "id": "level2_recognize",
  "background": "backgrounds/cult_photograph.png",
  "music": "music/dread.wav",
- "text": "You scan the faces. Most are strangers. But one, the person from the funeral. The one who gave you the envelope. They're standing next to Morgan, hand on her shoulder. In the photo, they're smiling. Looking directly at the camera. Looking directly at you. Like they knew you'd be here. Like they've been waiting.",
+ "text": "You scan the faces. Most are strangers. But one, the person from the funeral. The one who gave you the envelope. They're standing next to Emery, hand on her shoulder. In the photo, they're smiling. Looking directly at the camera. Looking directly at you. Like they knew you'd be here. Like they've been waiting.",
  "choices": [
  {
  "label": "Continue",
@@ -1785,7 +1785,7 @@
  "id": "level3_pit",
  "background": "backgrounds/the_pit.png",
  "music": "music/descent.wav",
- "text": "Behind the altar, a hole in the floor. A pit descending into absolute darkness. The warm air rises from it, thick and living. You can see the first rungs of a ladder, ancient iron set into stone, leading down into nothing. This is it. The lowest place. Where Morgan went. Where they all went.",
+ "text": "Behind the altar, a hole in the floor. A pit descending into absolute darkness. The warm air rises from it, thick and living. You can see the first rungs of a ladder, ancient iron set into stone, leading down into nothing. This is it. The lowest place. Where Emery went. Where they all went.",
  "choices": [
  {
  "label": "Climb down.",
@@ -1796,8 +1796,8 @@
  "next_scene": "level3_drop"
  },
  {
- "label": "Call Morgan's name into the pit.",
- "next_scene": "level3_call_morgan"
+ "label": "Call Emery's name into the pit.",
+ "next_scene": "level3_call_Emery"
  }
  ],
  "x": 280.0,
@@ -1817,11 +1817,11 @@
  "x": 140.0,
  "y": 5880.0
  },
- "level3_call_morgan": {
- "id": "level3_call_morgan",
+ "level3_call_Emery": {
+ "id": "level3_call_Emery",
  "background": "backgrounds/the_pit.png",
  "music": "music/horror.wav",
- "text": "\"Morgan?\" The name falls into the pit. Swallowed by darkness. Silence. Then, from very far below, so far it shouldn't be possible to hear anything, something that might be an echo. Or might be a response. Your name. Spoken in Morgan's voice. Warm and welcoming and utterly wrong.",
+ "text": "\"Emery?\" The name falls into the pit. Swallowed by darkness. Silence. Then, from very far below, so far it shouldn't be possible to hear anything, something that might be an echo. Or might be a response. Your name. Spoken in Emery's voice. Warm and welcoming and utterly wrong.",
  "choices": [
  {
  "label": "Climb down.",
@@ -1875,7 +1875,7 @@
  "id": "level4_warmth",
  "background": "backgrounds/warren_tunnels.png",
  "music": "music/descent.wav",
- "text": "Follow the warm air. Morgan's words echo in your memory. You hold your hand out at each junction, feeling for the current. There, stronger on the left. And again, the right path is warmer. The warmth leads you deeper. Always deeper. Like a breath drawing you in. Like a pulse pulling you toward its source.",
+ "text": "Follow the warm air. Emery's words echo in your memory. You hold your hand out at each junction, feeling for the current. There, stronger on the left. And again, the right path is warmer. The warmth leads you deeper. Always deeper. Like a breath drawing you in. Like a pulse pulling you toward its source.",
  "choices": [
  {
  "label": "Continue",
@@ -1889,7 +1889,7 @@
  "id": "level4_sound",
  "background": "backgrounds/warren_tunnels.png",
  "music": "music/grief.wav",
- "text": "There, that sound again. Humming. A melody, distant and distorted, rising from the tunnels ahead. You know that tune. Morgan used to hum it when she was tired. When she was falling asleep. You follow it through the maze, and it leads you true. The humming grows clearer. Closer. Until you can almost make out words. Almost recognize the voice.",
+ "text": "There, that sound again. Humming. A melody, distant and distorted, rising from the tunnels ahead. You know that tune. Emery used to hum it when she was tired. When she was falling asleep. You follow it through the maze, and it leads you true. The humming grows clearer. Closer. Until you can almost make out words. Almost recognize the voice.",
  "choices": [
  {
  "label": "Continue",
@@ -1917,7 +1917,7 @@
  "id": "reunion_approach",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "You emerge into a chamber. The final chamber. The lowest place. The floor is soft, not stone. Something organic. Yielding under your feet like flesh. The warmth is oppressive, tropical, wrong. And in the center of the room, sitting with their back to you, is a figure. They're wearing Morgan's clothes. Sitting perfectly still. Waiting.",
+ "text": "You emerge into a chamber. The final chamber. The lowest place. The floor is soft, not stone. Something organic. Yielding under your feet like flesh. The warmth is oppressive, tropical, wrong. And in the center of the room, sitting with their back to you, is a figure. They're wearing Emery's clothes. Sitting perfectly still. Waiting.",
  "choices": [
  {
  "label": "Say their name.",
@@ -1939,7 +1939,7 @@
  "id": "reunion_name",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "\"Morgan?\" The figure stiffens. Then, slowly, turns. It's Morgan, but wrong. Their face is theirs, but the proportions have shifted subtly. Eyes too calm. Smile too wide. They don't seem to breathe. \"You came.\" Their voice is Morgan's voice, but layered somehow. Echoed by something beneath it. \"I wasn't sure you would.\"",
+ "text": "\"Emery?\" The figure stiffens. Then, slowly, turns. It's Emery, but wrong. Their face is theirs, but the proportions have shifted subtly. Eyes too calm. Smile too wide. They don't seem to breathe. \"You came.\" Their voice is Emery's voice, but layered somehow. Echoed by something beneath it. \"I wasn't sure you would.\"",
  "choices": [
  {
  "label": "Continue",
@@ -1953,7 +1953,7 @@
  "id": "reunion_silent",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "You move closer, silent on the soft floor. The figure doesn't move. Doesn't acknowledge you. Until you're almost close enough to touch, and then, without turning, they speak. \"You came.\" Morgan's voice. Morgan's words. But somehow not Morgan at all. \"I felt you descending. I felt you the whole way down.\" They turn. Their face is Morgan's, but shifted. Changed. Perfected in a way that feels deeply wrong.",
+ "text": "You move closer, silent on the soft floor. The figure doesn't move. Doesn't acknowledge you. Until you're almost close enough to touch, and then, without turning, they speak. \"You came.\" Emery's voice. Emery's words. But somehow not Emery at all. \"I felt you descending. I felt you the whole way down.\" They turn. Their face is Emery's, but shifted. Changed. Perfected in a way that feels deeply wrong.",
  "choices": [
  {
  "label": "Continue",
@@ -1967,7 +1967,7 @@
  "id": "reunion_stay",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "You freeze at the threshold. Something tells you not to go closer. Not to step onto that soft, yielding floor. The figure stands. Turns. Morgan's face, but not. The proportions wrong. The smile too wide. The eyes too empty of the fear that always lived there before. \"You came.\" They take a step toward you. The floor pulses under their feet. \"I knew you would. Eventually. Everyone finds their way down, eventually.\"",
+ "text": "You freeze at the threshold. Something tells you not to go closer. Not to step onto that soft, yielding floor. The figure stands. Turns. Emery's face, but not. The proportions wrong. The smile too wide. The eyes too empty of the fear that always lived there before. \"You came.\" They take a step toward you. The floor pulses under their feet. \"I knew you would. Eventually. Everyone finds their way down, eventually.\"",
  "choices": [
  {
  "label": "Continue",
@@ -1981,7 +1981,7 @@
  "id": "reunion_conversation",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "\"Morgan...\" You don't know what to say. What can you say? They're here. They're alive. They're something else entirely.",
+ "text": "\"Emery...\" You don't know what to say. What can you say? They're here. They're alive. They're something else entirely.",
  "choices": [
  {
  "label": "\"What happened to you?\"",
@@ -2007,7 +2007,7 @@
  "id": "reunion_what_happened",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "\"I became.\" Morgan smiles that too-wide smile. \"The illness was always going to take me. The Assembly showed me another way. I went down, and down, and down. And at the bottom, I found something that wanted me.\" They spread their arms, indicating the chamber, the darkness, the something you can feel watching from everywhere at once. \"I'm not sick anymore. I'm not dying. I'm not even really me anymore. But I remember you. I still love you.\" They extend a hand. \"You could stay. You don't have to be afraid. You don't have to be alone.\"",
+ "text": "\"I became.\" Emery smiles that too-wide smile. \"The illness was always going to take me. The Assembly showed me another way. I went down, and down, and down. And at the bottom, I found something that wanted me.\" They spread their arms, indicating the chamber, the darkness, the something you can feel watching from everywhere at once. \"I'm not sick anymore. I'm not dying. I'm not even really me anymore. But I remember you. I still love you.\" They extend a hand. \"You could stay. You don't have to be afraid. You don't have to be alone.\"",
  "choices": [
  {
  "label": "Continue",
@@ -2021,7 +2021,7 @@
  "id": "reunion_take_home",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "Morgan laughs. It's almost a human sound. Almost. \"Home? This is home now. More than that house ever was.\" They step closer. You can smell them now, earth and something sweeter, something organic and alive. \"The illness was going to take everything. The pain, the exhaustion, the slow vanishing of who I used to be. This was better. This is better.\" They reach for your hand. Their skin is cold but somehow also warm. Wrong temperature. Impossible temperature. \"You could stay. With me. Forever.\"",
+ "text": "Emery laughs. It's almost a human sound. Almost. \"Home? This is home now. More than that house ever was.\" They step closer. You can smell them now, earth and something sweeter, something organic and alive. \"The illness was going to take everything. The pain, the exhaustion, the slow vanishing of who I used to be. This was better. This is better.\" They reach for your hand. Their skin is cold but somehow also warm. Wrong temperature. Impossible temperature. \"You could stay. With me. Forever.\"",
  "choices": [
  {
  "label": "Continue",
@@ -2035,7 +2035,7 @@
  "id": "reunion_what_place",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "\"The lowest place.\" Morgan's voice echoes strangely, as if the chamber itself is speaking through them. \"Where the threshold meets what waits. What has always waited.\" The darkness around you seems to pulse. Breathe. \"It was here before the house. Before the land. Before anything at all. It doesn't want. It doesn't need. It just... is. And anyone who descends far enough becomes part of its isness.\" They extend a hand. \"You could understand. If you stayed.\"",
+ "text": "\"The lowest place.\" Emery's voice echoes strangely, as if the chamber itself is speaking through them. \"Where the threshold meets what waits. What has always waited.\" The darkness around you seems to pulse. Breathe. \"It was here before the house. Before the land. Before anything at all. It doesn't want. It doesn't need. It just... is. And anyone who descends far enough becomes part of its isness.\" They extend a hand. \"You could understand. If you stayed.\"",
  "choices": [
  {
  "label": "Continue",
@@ -2049,7 +2049,7 @@
  "id": "reunion_alive",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "\"Alive?\" Morgan tilts their head, considering. \"That's a surface word. Up there, you're alive or you're dead. Down here...\" They gesture at the pulsing darkness. \"Down here, there are other options.\" They step closer. You can see now, they don't breathe. Their chest doesn't move. But something in them lives. Something that wears Morgan's face like a comfortable memory. \"I'm not afraid anymore. Not in pain. Not waiting to die.\" They extend a hand. \"You don't have to be either.\"",
+ "text": "\"Alive?\" Emery tilts their head, considering. \"That's a surface word. Up there, you're alive or you're dead. Down here...\" They gesture at the pulsing darkness. \"Down here, there are other options.\" They step closer. You can see now, they don't breathe. Their chest doesn't move. But something in them lives. Something that wears Emery's face like a comfortable memory. \"I'm not afraid anymore. Not in pain. Not waiting to die.\" They extend a hand. \"You don't have to be either.\"",
  "choices": [
  {
  "label": "Continue",
@@ -2063,7 +2063,7 @@
  "id": "final_choice",
  "background": "backgrounds/lowest_place.png",
  "music": "music/finale.wav",
- "text": "Morgan's hand hangs in the air between you. Cold fingers extended. Behind them, the darkness pulses. Watches. Waits. You can feel it, the thing beneath everything. Ancient and patient. Hungry in a way that has nothing to do with appetite. The way back is still open. For now. You can feel the ladder behind you, the tunnels, the spiral stairs rising toward light and air and the world you used to know. This is the choice. The only choice that ever mattered.",
+ "text": "Emery's hand hangs in the air between you. Cold fingers extended. Behind them, the darkness pulses. Watches. Waits. You can feel it, the thing beneath everything. Ancient and patient. Hungry in a way that has nothing to do with appetite. The way back is still open. For now. You can feel the ladder behind you, the tunnels, the spiral stairs rising toward light and air and the world you used to know. This is the choice. The only choice that ever mattered.",
  "choices": [
  {
  "label": "Take their hand. Stay. Become.",
@@ -2089,7 +2089,7 @@
  "id": "ending_a",
  "background": "backgrounds/ending_communion.png",
  "music": "music/ending_a.wav",
- "text": "You take their hand. It's cold, then warm, then something beyond temperature. Beyond sensation. Morgan smiles, really smiles, and pulls you forward, into the darkness, into the warmth, into the vast and patient presence that waits beneath everything. You descend. Together this time. The fear dissolves. The grief dissolves. Your sense of self begins to blur at the edges, to merge with something larger. You understand now. It's not death. It's not life. It's becoming. Above, in the house that was once yours, the door seals itself. The tapestry falls back into place. Eventually, the house is sold. A young couple moves in. They seem happy. The real estate agent mentions there's a bit of draft in the upstairs hallway, probably just needs weather-stripping. Nothing to worry about. They'll get used to it. Everyone does, eventually. Everyone finds their way down.",
+ "text": "You take their hand. It's cold, then warm, then something beyond temperature. Beyond sensation. Emery smiles, really smiles, and pulls you forward, into the darkness, into the warmth, into the vast and patient presence that waits beneath everything. You descend. Together this time. The fear dissolves. The grief dissolves. Your sense of self begins to blur at the edges, to merge with something larger. You understand now. It's not death. It's not life. It's becoming. Above, in the house that was once yours, the door seals itself. The tapestry falls back into place. Eventually, the house is sold. A young couple moves in. They seem happy. The real estate agent mentions there's a bit of draft in the upstairs hallway, probably just needs weather-stripping. Nothing to worry about. They'll get used to it. Everyone does, eventually. Everyone finds their way down.",
  "choices": [],
  "x": 60.0,
  "y": 7000.0
@@ -2098,7 +2098,7 @@
  "id": "ending_b",
  "background": "backgrounds/ending_escape.png",
  "music": "music/ending_b.wav",
- "text": "\"No.\" You step back. Turn. Run. Behind you, Morgan doesn't chase. Doesn't call out. Just watches with those too-calm eyes as you scramble toward the ladder, the tunnels, the spiral stairs. The warren shifts around you, but you marked your path. Left here. Right there. Following the arrows scratched in stone, the torn fabric hanging from the walls. The climb is endless. Your arms burn. Your lungs scream. But finally, finally, you emerge into your own hallway, gasping, covered in dust and sweat and something darker. You seal the door. Nail it shut. Push the heaviest furniture you own against it. Then you sell the house. Take the first offer. Never look back. You move across the country. Start over. Try to forget. Mostly, you succeed. But some nights, you wake at 3:17 AM to the feeling of warm breath on the back of your neck. And you know, you will always know, that the door is still there. Waiting. In case you ever change your mind.",
+ "text": "\"No.\" You step back. Turn. Run. Behind you, Emery doesn't chase. Doesn't call out. Just watches with those too-calm eyes as you scramble toward the ladder, the tunnels, the spiral stairs. The warren shifts around you, but you marked your path. Left here. Right there. Following the arrows scratched in stone, the torn fabric hanging from the walls. The climb is endless. Your arms burn. Your lungs scream. But finally, finally, you emerge into your own hallway, gasping, covered in dust and sweat and something darker. You seal the door. Nail it shut. Push the heaviest furniture you own against it. Then you sell the house. Take the first offer. Never look back. You move across the country. Start over. Try to forget. Mostly, you succeed. But some nights, you wake at 3:17 AM to the feeling of warm breath on the back of your neck. And you know, you will always know, that the door is still there. Waiting. In case you ever change your mind.",
  "choices": [],
  "x": 200.0,
  "y": 7000.0
@@ -2107,7 +2107,7 @@
  "id": "ending_c",
  "background": "backgrounds/ending_defiance.png",
  "music": "music/ending_c.wav",
- "text": "You grab Morgan's hand, not to stay, but to pull. \"We're leaving. Now.\" Morgan doesn't fight. Doesn't resist. Just looks at you with infinite sadness. \"You can't save me. I'm not lost.\" You pull harder. Drag them toward the ladder. And then the darkness moves. Not a metaphor. Not a feeling. The chamber itself contracts. The floor ripples. Something vast and ancient and utterly indifferent notices you for the first time. You are very, very small. \"Go,\" Morgan whispers. \"While it still lets you.\" You run. Somehow, impossibly, you make it. The tunnels release you. The stairs spit you out into your own hallway, alone, shaking, alive. The door seals itself behind you with a sound like a sigh. Morgan is gone. Really gone now. But when you look at your palm, there's a mark. Circle and line. The threshold symbol, burned into your skin like a brand. A reminder. A promise. A door that can never fully close.",
+ "text": "You grab Emery's hand, not to stay, but to pull. \"We're leaving. Now.\" Emery doesn't fight. Doesn't resist. Just looks at you with infinite sadness. \"You can't save me. I'm not lost.\" You pull harder. Drag them toward the ladder. And then the darkness moves. Not a metaphor. Not a feeling. The chamber itself contracts. The floor ripples. Something vast and ancient and utterly indifferent notices you for the first time. You are very, very small. \"Go,\" Emery whispers. \"While it still lets you.\" You run. Somehow, impossibly, you make it. The tunnels release you. The stairs spit you out into your own hallway, alone, shaking, alive. The door seals itself behind you with a sound like a sigh. Emery is gone. Really gone now. But when you look at your palm, there's a mark. Circle and line. The threshold symbol, burned into your skin like a brand. A reminder. A promise. A door that can never fully close.",
  "choices": [],
  "x": 340.0,
  "y": 7000.0
@@ -2116,7 +2116,7 @@
  "id": "ending_d",
  "background": "backgrounds/ending_understanding.png",
  "music": "music/ending_d.wav",
- "text": "\"Show me.\" Morgan takes your hand, but doesn't pull. Their cold fingers interlock with yours, and suddenly you're not in the chamber anymore. You're everywhere. Nowhere. You see the thing beneath, vast and patient, older than geology, older than time. You see the faithful, absorbed into its vastness. Not dead. Not alive. Part of something. Threads in an infinite tapestry, woven into the fabric of what waits beneath everything. You see Morgan among them. Content. Connected. Free of pain, free of fear, free of the slow betrayal of a body that was always failing them. You understand. Not everything, no human mind could hold everything, but enough. Enough to know that this isn't evil. Isn't good. It simply is. Has always been. Will always be. You wake at the base of the ladder. Alone. The chamber is empty. Morgan is gone. The tunnels behind you have collapsed. There's only one way now: up. You climb. Emerge into your hallway. The door is gone. Just a wall. Just a water heater closet. Was any of it real? You touch your chest. The pendant hangs there. Morgan's pendant, warm against your skin. You don't remember putting it on. But you know, now. You understand. And you will carry that understanding for the rest of your life. A door that opened inward. A truth you can never unknow.",
+ "text": "\"Show me.\" Emery takes your hand, but doesn't pull. Their cold fingers interlock with yours, and suddenly you're not in the chamber anymore. You're everywhere. Nowhere. You see the thing beneath, vast and patient, older than geology, older than time. You see the faithful, absorbed into its vastness. Not dead. Not alive. Part of something. Threads in an infinite tapestry, woven into the fabric of what waits beneath everything. You see Emery among them. Content. Connected. Free of pain, free of fear, free of the slow betrayal of a body that was always failing them. You understand. Not everything, no human mind could hold everything, but enough. Enough to know that this isn't evil. Isn't good. It simply is. Has always been. Will always be. You wake at the base of the ladder. Alone. The chamber is empty. Emery is gone. The tunnels behind you have collapsed. There's only one way now: up. You climb. Emerge into your hallway. The door is gone. Just a wall. Just a water heater closet. Was any of it real? You touch your chest. The pendant hangs there. Emery's pendant, warm against your skin. You don't remember putting it on. But you know, now. You understand. And you will carry that understanding for the rest of your life. A door that opened inward. A truth you can never unknow.",
  "choices": [],
  "x": 480.0,
  "y": 7000.0

@@ -1,7 +1,28 @@
 {
-  "current_scene": "start",
+  "current_scene": "search_elena_call",
   "endings_seen": [],
   "history": [
-    "start"
+    "start",
+    "scene1.1",
+    "scene1_movie_stay",
+    "office_day2",
+    "office_day2_ask",
+    "night2_intro",
+    "night2_pendant_silent",
+    "night2_press",
+    "night2_investigate",
+    "office_day3",
+    "office_day3_stay",
+    "night3_intro",
+    "night3_fear",
+    "night3_denial",
+    "night3_accept_tapestry",
+    "night4_gone",
+    "night4_search_bedroom",
+    "night4_call_911",
+    "search_montage",
+    "search_marsh_interview",
+    "search_tell_all",
+    "search_elena_call"
   ]
 }

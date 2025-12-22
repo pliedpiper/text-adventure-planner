@@ -115,49 +115,49 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ---
 
-### Scene 16 - The Journals [ ]
+### Scene 16 - The Journals [x]
 **File:** `journal_pages.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. Close-up of journal pages found underground, handwritten entries visible through the pixelation. Words partially legible: "THE DESCENT" ... "I'M READY" ... "WHAT WAITS BELOW." Multiple handwriting styles - dozens of people. Some entries end mid-sentence. Some pages are stained. One journal lies open to a page: "It's not about dying. It's about going deeper." Analog horror aesthetic.
 
 ---
 
-### Scene 17 - Level Two: The Residences [ ]
+### Scene 17 - Level Two: The Residences [x]
 **File:** `underground_residences.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. An underground tunnel carved into something like a neighborhood. Alcoves carved into the stone walls, some with beds, personal effects, photos pinned to stone. Abandoned but recently occupied. One alcove has a lantern still burning with impossible persistence. The beds are unmade. Someone was here. Someone might still be here, deeper in. Liminal space atmosphere.
 
 ---
 
-### Scene 18 - The Photograph [ ]
+### Scene 18 - The Photograph [x]
 **File:** `cult_photograph.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A photograph pinned to a stone wall underground, illuminated by flashlight. The image shows robed figures standing in a group, smiling at the camera, faces pixelated. One of them has a recognizable posture - a missing sibling. Behind the group in the photo: a massive dark opening. A pit. The photo is the only proof they were ever here. Analog horror aesthetic.
 
 ---
 
-### Scene 19 - Level Three: The Cathedral [ ]
+### Scene 19 - Level Three: The Cathedral [x]
 **File:** `underground_cathedral.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A vast underground cavern so large a flashlight can't reach the ceiling. In the center, a stone altar surrounded by thousands of melted candles, burned down to waxy pools. The space feels sacred and profane simultaneously. The altar surface is stained. On it rests an ancient book. The scale is overwhelming - this took centuries to create. Liminal space atmosphere.
 
 ---
 
-### Scene 20 - The Ritual Book [ ]
+### Scene 20 - The Ritual Book [x]
 **File:** `rites_of_threshold.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. Close-up of an ancient handwritten book on a stone altar. The title page reads "THE RITES OF THRESHOLD" in careful calligraphy. Pages visible show diagrams of human figures descending, transforming, merging with something below. The ink is faded but the images are clear enough to disturb. Annotations in margins from different eras. Analog horror aesthetic.
 
 ---
 
-### Scene 21 - The Pit [ ]
+### Scene 21 - The Pit [x]
 **File:** `the_pit.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. Behind a stone altar in an underground cathedral, a hole in the floor. A pit descending into absolute darkness. The first rungs of an ancient iron ladder are visible, descending into the void. Warm air rises from below, visible as heat distortion. The darkness below isn't empty - it's full of something that absorbs light. The ladder goes down forever. Dreamlike and unsettling.
 
 ---
 
-### Scene 22 - Level Four: The Warren [ ]
+### Scene 22 - Level Four: The Warren [x]
 **File:** `warren_tunnels.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A claustrophobic maze of narrow underground tunnels branching in every direction. The walls are wet, glistening in flashlight. The air is thick, warm, almost tropical. The ceiling is low enough to touch. Every direction looks the same. A hand is visible at the edge of frame, touching the wall to mark the path. Humming sound implied. Liminal space atmosphere.
@@ -173,7 +173,7 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ---
 
-### Scene 24 - The Figure Turns [ ]
+### Scene 24 - The Figure Turns [x]
 **File:** `sibling_transformed.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A person's face, but wrong. The proportions have shifted - eyes too calm, smile too wide. They don't appear to breathe. The pixelation makes it worse - you can't quite focus on what's changed, only that something HAS. They look peaceful. They look happy. They look like they haven't been human for a very long time. Recognition and wrongness exist simultaneously. Analog horror aesthetic.
