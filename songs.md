@@ -1,4 +1,4 @@
-# Beneath the House - MIDI Generation Prompts
+# Emery - MIDI Generation Prompts
 
 Music for a psychological horror game about watching a sibling fall into a cult that worships something ancient beneath the earth.
 

@@ -18,14 +18,14 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ---
 
-### Scene 3 - Night Three: The Kitchen Table []
+### Scene 3 - Night Three: The Kitchen Table [x]
 **File:** `kitchen_table_waiting.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A sparse kitchen at night. Overhead fluorescent light casting harsh, sickly green illumination. A figure sits at a small table, hands folded, facing the viewer. Their face is too calm, too peaceful - features blurred into unsettling serenity, obscured by pixelation. Empty chairs. The table is bare except for their folded hands. Through the doorway behind them, a dark hallway stretches back. The composition feels like an interrogation or a confession.
 
 ---
 
-### Scene 4 - Night Three: The Tapestry [ ]
+### Scene 4 - Night Three: The Tapestry [x]
 **File:** `tapestry_hallway.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A narrow upstairs hallway in a suburban house. A large woven tapestry hangs on the wall, ornate with geometric patterns that seem to shift in the pixelation. The tapestry covers more wall than it should - the edges don't quite align with the architecture. Warm air seems to emanate from behind it, suggested by subtle heat distortion. A water heater closet door is nearby, mundane, unassuming. Low resolution makes the tapestry's pattern almost impossible to focus on. Liminal space atmosphere.
@@ -34,28 +34,28 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ## ACT II: THE DISAPPEARANCE
 
-### Scene 5 - Night Four: Gone [ ]
+### Scene 5 - Night Four: Gone [x]
 **File:** `empty_house_dark.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A house interior in complete darkness. Only moonlight through windows creates silver rectangles on floors. Every room feels abandoned. Shoes by the door. A phone on the counter, screen dark. A protagonist's shadow stretches long across the floor as they search. The emptiness is oppressive. No other figure anywhere. Just absence. Analog horror ARG screenshot aesthetic.
 
 ---
 
-### Scene 6 - The Search: Missing Poster [ ]
+### Scene 6 - The Search: Missing Poster [x]
 **File:** `missing_poster.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A missing persons flyer, weathered and rain-damaged, stapled to a telephone pole. The photo is too pixelated to make out features - just a human shape. "HAVE YOU SEEN ME?" in bold letters, phone numbers torn off at the bottom. Behind the poster, the blurred suggestion of a suburban street. The poster is one of many, overlapping. Grainy, unsettling atmosphere.
 
 ---
 
-### Scene 7 - The Funeral: Empty Casket [ ]
+### Scene 7 - The Funeral: Empty Casket [x]
 **File:** `funeral_empty.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A small church or funeral home interior. Rows of empty pews. A closed casket at the front, surrounded by white flowers that look gray in the desaturated palette. A few mourners, their faces pixelated into unrecognizable smears. The protagonist stands apart. Near the back, a well-dressed stranger watches - their form more defined than it should be, standing too still. Dreamlike and unsettling.
 
 ---
 
-### Scene 8 - The Map [ ]
+### Scene 8 - The Map [x]
 **File:** `mysterious_map.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A close-up of aged paper, hand-drawn floor plan of a house's second floor. Rooms sketched in shaky pencil lines. An X marks a spot near what's labeled "W.H." (water heater). On the back, visible through the paper's translucency: "THE DOOR OPENS FROM INSIDE." The paper is held by trembling hands at the edge of frame. Grainy analog horror aesthetic.
@@ -64,35 +64,35 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ## ACT III: THE HAUNTED MONTHS
 
-### Scene 9 - Three Months Later: The Fog [ ]
+### Scene 9 - Three Months Later: The Fog [x]
 **File:** `protagonist_fog.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A person sitting alone in a dark room. They're on the edge of a bed or chair, head in hands, face not visible. Empty bottles nearby. The room around them is barely visible - consumed by darkness and pixelated grain. A single source of light - maybe a bedside lamp - illuminates nothing but their isolated form. Grief made visible. Liminal space atmosphere.
 
 ---
 
-### Scene 10 - 3:17 AM: The Knocking [ ]
+### Scene 10 - 3:17 AM: The Knocking [x]
 **File:** `wall_knocking.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A bedroom wall at night, viewed from the bed's perspective. The wall is ordinary - plaster, maybe a framed photo - but something is wrong. Subtle distortions suggest pressure from behind. The wallpaper pattern seems to pulse. In the darkness, the texture of the wall almost looks like it's breathing. A digital clock shows 3:17 in red LED numbers. Dreamlike and unsettling.
 
 ---
 
-### Scene 11 - The Pendant Moves [ ]
+### Scene 11 - The Pendant Moves [x]
 **File:** `pendant_nightstand.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A nightstand drawer, open. Empty except for dust and shadows where a pendant should be. The camera angle shifts to reveal the pendant now sitting on TOP of the nightstand, facing the bedroom door as if watching. The pendant shows a circle-and-line symbol (threshold symbol) that catches light that shouldn't exist. Behind it, the dark doorway gapes. Analog horror aesthetic.
 
 ---
 
-### Scene 12 - The Tapestry Breathes [ ]
+### Scene 12 - The Tapestry Breathes [x]
 **File:** `tapestry_moving.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A large woven tapestry on a hallway wall, slightly billowing outward as if breathing. Warm air visible as heat distortion around its edges. The geometric patterns seem different - more organized, more intentional. A spiral pattern emerges in the weave that wasn't there before. The hallway beyond is darker than possible. Liminal space atmosphere.
 
 ---
 
-### Scene 13 - The Discovery: The Hidden Door [ ]
+### Scene 13 - The Discovery: The Hidden Door [x]
 **File:** `hidden_door.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A tapestry torn away from a hallway wall, revealing a seam in the wall - a door that shouldn't exist in a suburban house. The door is slightly ajar, warm stale air seeping through the crack as visible distortion. The door frame is older than the house, made of dark wood with carved symbols worn smooth by time. Beyond the crack: absolute blackness, but a blackness that feels alive. Analog horror aesthetic.
@@ -101,14 +101,14 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ## ACT IV: THE DESCENT
 
-### Scene 14 - The Spiral Stairs [ ]
+### Scene 14 - The Spiral Stairs [x]
 **File:** `spiral_stairs_down.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. Looking down into a stone spiral staircase that descends into darkness beneath a house. The walls are covered with the threshold symbol - a circle with a vertical line through it - carved and drawn hundreds of times. Some carved deep. Some drawn in something dark that could be ink or could be blood. The stairs seem to go down forever. The stone is ancient, worn smooth by countless feet. Liminal space atmosphere.
 
 ---
 
-### Scene 15 - Level One: The Antechamber [ ]
+### Scene 15 - Level One: The Antechamber [x]
 **File:** `antechamber.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. An underground stone chamber lit by a flashlight beam. Sleeping bags arranged in circles on the floor. Empty water bottles scattered. Journals and papers everywhere. This was a meeting place - a congregation point for a cult. The ceiling is low. The walls close. In the flashlight beam, dust motes hang frozen. An exit tunnel leads deeper, downward. Dreamlike and unsettling.
@@ -263,10 +263,10 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ---
 
-### Start Screen / Title [ ]
+### Start - Coming Home [ ]
 **File:** `start.png`
 
-Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A dark, ambiguous space. Could be a room, could be a void. In the center, barely visible: the suggestion of a house. Or maybe stairs going down. Or maybe just darkness. The image should feel like looking into something you shouldn't. Like the game is already watching you before you've begun. Analog horror title screen aesthetic.
+Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A living room at night, viewed from the entryway. The porch light casts a faint glow through the window. A figure is curled on a worn couch, wrapped in an old blue blanket, face obscured by pixelation but body language suggesting exhaustion. The TV murmurs in the corner, its cold blue light mixing with the warm lamplight. The room feels small, lived-in, domestic. Keys and a bag dropped by the door. A kitchen visible in the background, the faint suggestion of something reheated. This is home - but home carries weight. The warmth feels fragile, temporary. Liminal space atmosphere.
 
 ---
 

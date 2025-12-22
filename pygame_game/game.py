@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Beneath the House - A Text Adventure Game
+Emery - A Text Adventure Game
 Built with Pygame
 """
 
@@ -302,7 +302,7 @@ class Game:
         SCREEN_WIDTH = display_info.current_w
         SCREEN_HEIGHT = display_info.current_h
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.FULLSCREEN)
-        pygame.display.set_caption("Beneath the House")
+        pygame.display.set_caption("Emery")
         self.clock = pygame.time.Clock()
 
         # Load fonts
@@ -438,7 +438,7 @@ class Game:
         self.screen.fill(COLOR_BLACK)
 
         # Title
-        title = self.font_title.render("BENEATH THE HOUSE", True, COLOR_DARK_RED)
+        title = self.font_title.render("EMERY", True, COLOR_DARK_RED)
         title_rect = title.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 3))
         self.screen.blit(title, title_rect)
 
