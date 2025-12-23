@@ -140,14 +140,14 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ---
 
-### Ending C - Defiance [ ]
+### Ending C - Defiance [x]
 **File:** `ending_defiance.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A person climbing a ladder frantically, looking up toward dim light above. Below them, darkness is churning with something massive and displeased. A sibling's sad face is visible one last time in the darkness, not following, not fighting. Just watching them go. Face obscured by pixelation. Analog horror aesthetic.
 
 ---
 
-### Ending D - Understanding [ ]
+### Ending D - Understanding [x]
 **File:** `ending_understanding.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A person collapsed at the base of an underground ladder, alone. The chamber is empty - a sibling is gone, was perhaps never there. But a pendant with a circle-and-line symbol now hangs around the protagonist's neck, and in their eyes (visible through the pixelation) is something new: knowledge. Horror. And perhaps, impossibly, peace.
@@ -156,7 +156,7 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ## ADDITIONAL ENVIRONMENTAL IMAGES
 
-### The House Exterior - Night [ ]
+### The House Exterior - Night [x]
 **File:** `house_exterior_night.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A modest suburban house at night. One window lit - the living room. The rest of the house consumed by darkness. Streetlight creates harsh shadows. The house looks like it's waiting. Like it knows what's underneath. Analog horror aesthetic.
@@ -165,14 +165,14 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ## GAMEPLAY SCENES (Additional)
 
-### Office - Day [ ]
+### Office - Day [x]
 **File:** `office_day.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A cubicle farm under harsh fluorescent lights. Rows of identical desks stretch into pixelated infinity. A desk is visible in the foreground - a computer monitor glowing, a coffee cup going cold, a photo frame facing away from camera. Coworkers are blurred shapes in the background, faces obscured, indistinct and unimportant. The window shows gray daylight. Everything feels temporary, meaningless. Liminal space atmosphere.
 
 ---
 
-### Office - Night [ ]
+### Office - Night [x]
 **File:** `office_night.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. An empty office at night. Most lights are off. A computer monitor is the only source of illumination, casting a silhouette against the cubicle wall. Through the windows: city lights, distant and cold. The emptiness of the space feels oppressive. Everyone else has gone home. Everyone else has someone to go home to. Liminal space atmosphere.
@@ -256,63 +256,63 @@ Low-resolution pixelated horror game aesthetic, heavily dithered, limited color 
 
 ---
 
-### Living Room - Day [ ]
+### Living Room - Day [x]
 **File:** `living_room_day.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A living room in afternoon light. Dust motes visible in sunbeams through curtains. The couch is empty, a blanket folded. An older woman (former caretaker) sits in a chair - her form soft, sympathetic, face slightly out of focus and pixelated. The TV is off. Coffee cups on the table. A conversation is happening. She knows something. The light is too bright, too ordinary for what's being discussed. Liminal space atmosphere.
 
 ---
 
-### Car - Night [ ]
+### Car - Night [x]
 **File:** `car_night.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. View through a car windshield at night. Headlights illuminate a dark road - suburban streets, houses with porch lights, stop signs. The dashboard glows dimly. Hands on the steering wheel, gripping too tight. Outside the cone of headlights: absolute darkness. You're driving somewhere, anywhere, looking for someone who doesn't want to be found. Analog horror aesthetic.
 
 ---
 
-### Police Station [ ]
+### Police Station [x]
 **File:** `police_station.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A police interview room or detective's office. Institutional furniture, bad lighting, a desk between viewer and detective. Their face is sympathetic but pixelated beyond reading. Case files visible - missing persons, a name visible on a folder. A coffee cup. A notepad. The questions are routine. The answers aren't helping. The walls are that particular shade of government beige that makes time feel meaningless. Liminal space atmosphere.
 
 ---
 
-### Fireplace [ ]
+### Fireplace [x]
 **File:** `fireplace.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A close-up of a fireplace, flames low but burning. A hand enters the frame, holding a piece of paper - a mysterious map. The fire reflects in the paper. A choice is being made. The flames seem to reach for the paper. The room behind is dark, irrelevant. Only this moment matters. Analog horror aesthetic.
 
 ---
 
-### House - Day (Grey) [ ]
+### House - Day (Grey) [x]
 **File:** `house_day_grey.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A suburban house exterior on an overcast day. Everything is gray - the sky, the siding, the grass. No shadows because there's no sun. The porch light is off. The house looks tired, sagging. It's been three months since a disappearance. Grief has a color, and it's this gray. Liminal space atmosphere.
 
 ---
 
-### Trash [ ]
+### Trash [x]
 **File:** `trash.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A close-up of an open trash can. Inside: a pendant with a circle-and-line symbol visible against garbage. A hand is pulling away, having just dropped it. But the pendant catches light it shouldn't - there's no source for that gleam. The decision has been made. The pendant will not stay here. Analog horror aesthetic.
 
 ---
 
-### Mirror [ ]
+### Mirror [x]
 **File:** `mirror.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A bathroom or bedroom mirror. A person's reflection is visible - face obscured by pixelation, but body language clear. They're wearing a pendant with a circle-and-line symbol around their neck. Their hand touches it. The reflection seems slightly delayed, slightly wrong. The pendant's symbol is clearly visible. Wearing it felt right. That's what worries you. Dreamlike and unsettling.
 
 ---
 
-### Computer [ ]
+### Computer [x]
 **File:** `computer.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. A computer monitor in a dark room, the screen the only light source. Search results visible - occult symbols, ancient cults, "threshold" repeated in tabs. A face is reflected faintly in the screen, overlapping with the search results. The deeper you look, the more you find. The circle-and-line symbol appears in historical documents, in old photographs, in places it shouldn't be. Analog horror aesthetic.
 
 ---
 
-### Alcove (Underground) [ ]
+### Alcove (Underground) [x]
 **File:** `alcove.png`
 
 Low-resolution pixelated horror game aesthetic, heavily dithered, limited color palette of muted browns, sickly greens, deep blacks, and desaturated reds. CRT scan lines visible, VHS quality with chromatic aberration at edges. PS1-era survival horror feel. One of the carved alcoves in underground residences beneath a house, lit by a single lantern with an impossible flame. A narrow bed with rumpled blankets. Personal effects: a book, a photo pinned to stone, a water bottle half-empty. Someone lived here, slept here, chose this over the world above. The lantern casts dancing shadows. It's been burning for longer than any lantern should. Liminal space atmosphere.

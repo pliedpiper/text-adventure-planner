@@ -58,6 +58,24 @@ CHOICE_HEIGHT = 50
 CHOICE_SPACING = 15
 CHOICE_PADDING = 20
 
+# Epilogue text for each ending
+EPILOGUE_TEXT = {
+    "ending_communion": "Six months later.\n\nYou've become one with something ancient and unknowable... but the bills still need paying.\n\nTime to find a job.",
+    "ending_escape": "Six months later.\n\nYou escaped the darkness below, but you can't escape capitalism.\n\nTime to find a job.",
+    "ending_defiance": "Six months later.\n\nYou defied an eldritch horror... but your landlord is somehow scarier.\n\nTime to find a job.",
+    "ending_understanding": "Six months later.\n\nYou understand the cosmic truth now... and the truth is you need a paycheck.\n\nTime to find a job."
+}
+
+# Loading messages for job application
+LOADING_MESSAGES = [
+    "Submitting application...",
+    "Reviewing qualifications...",
+    "Checking availability...",
+    "Consulting hiring manager...",
+    "Processing background check...",
+    "Finalizing decision..."
+]
+
 
 # ============================================================================
 # GAME ENGINE
@@ -151,6 +169,69 @@ class Button:
 
     def is_clicked(self, mouse_pos, mouse_pressed):
         return self.rect.collidepoint(mouse_pos) and mouse_pressed
+
+
+class TextInput:
+    """An editable text input field."""
+
+    def __init__(self, x, y, width, height, label, font):
+        self.rect = pygame.Rect(x, y, width, height)
+        self.label = label
+        self.font = font
+        self.text = ""
+        self.active = False
+        self.cursor_visible = True
+        self.cursor_timer = 0
+
+    def draw(self, surface):
+        # Label above the input
+        label_surface = self.font.render(self.label, True, COLOR_DIM)
+        surface.blit(label_surface, (self.rect.x, self.rect.y - 25))
+
+        # Background
+        bg_color = (40, 40, 40) if self.active else (25, 25, 25)
+        pygame.draw.rect(surface, bg_color, self.rect)
+
+        # Border
+        border_color = COLOR_HOVER_RED if self.active else COLOR_DARK_RED
+        pygame.draw.rect(surface, border_color, self.rect, 2)
+
+        # Text
+        display_text = self.text
+        if self.active and self.cursor_visible:
+            display_text += "|"
+        text_surface = self.font.render(display_text, True, COLOR_WHITE)
+        text_rect = text_surface.get_rect(midleft=(self.rect.x + 10, self.rect.centery))
+
+        # Clip text to fit in box
+        clip_rect = pygame.Rect(self.rect.x + 5, self.rect.y, self.rect.width - 10, self.rect.height)
+        surface.set_clip(clip_rect)
+        surface.blit(text_surface, text_rect)
+        surface.set_clip(None)
+
+    def update(self, dt):
+        # Blink cursor
+        if self.active:
+            self.cursor_timer += dt
+            if self.cursor_timer >= 500:  # Blink every 500ms
+                self.cursor_visible = not self.cursor_visible
+                self.cursor_timer = 0
+
+    def handle_event(self, event):
+        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+            self.active = self.rect.collidepoint(event.pos)
+            if self.active:
+                self.cursor_visible = True
+                self.cursor_timer = 0
+
+        if event.type == pygame.KEYDOWN and self.active:
+            if event.key == pygame.K_BACKSPACE:
+                self.text = self.text[:-1]
+            elif event.key == pygame.K_RETURN or event.key == pygame.K_TAB:
+                return "next"  # Signal to move to next field
+            elif event.unicode.isprintable() and len(self.text) < 50:
+                self.text += event.unicode
+        return None
 
 
 class AssetManager:
@@ -328,9 +409,19 @@ class Game:
         self.transitioning = False
 
         # Game mode
-        self.mode = "menu"  # menu, playing, ending
+        self.mode = "menu"  # menu, playing, epilogue, job_application, job_loading, job_result
         self.menu_buttons = []
         self._create_menu_buttons()
+
+        # Epilogue/Job application state
+        self.current_ending = None
+        self.epilogue_button = None
+        self.job_inputs = []
+        self.job_submit_button = None
+        self.loading_start_time = 0
+        self.loading_message_index = 0
+        self.applicant_name = ""
+        self.result_button = None
 
     def _load_game_data(self):
         """Load game data from tapln file."""
@@ -413,20 +504,38 @@ class Game:
         if scene_id and scene_id in self.scenes:
             self.state.visit_scene(scene_id)
             scene = self.get_current_scene()
-            self._create_choice_buttons(scene.get("choices", []))
+
+            # Check if this is an ending - add epilogue button
+            if scene_id.startswith("ending_"):
+                self.current_ending = scene_id
+                self.state.save()
+                # Create epilogue choice instead of normal choices
+                self.choice_buttons = []
+                epilogue_button = Button(
+                    SCREEN_WIDTH // 2 - CHOICE_WIDTH // 2,
+                    IMAGE_AREA_HEIGHT + 50,
+                    CHOICE_WIDTH, CHOICE_HEIGHT,
+                    "Epilogue",
+                    self.font_choice
+                )
+                epilogue_button.next_scene = "__epilogue__"
+                self.choice_buttons.append(epilogue_button)
+            else:
+                self._create_choice_buttons(scene.get("choices", []))
 
             # Handle music
             music = scene.get("music", "")
             if music:
                 self.assets.play_music(music.replace("music/", "").replace(".wav", ""))
 
-            # Check if this is an ending
-            if scene_id.startswith("ending_"):
-                self.state.save()
         elif not scene_id:
             # Empty next_scene means return to menu
             self.mode = "menu"
             self.state.current_scene = "start"
+        elif scene_id == "__epilogue__":
+            # Special case: go to epilogue screen
+            self.mode = "epilogue"
+            self.epilogue_button = None  # Will be created in draw_epilogue
 
     def draw_menu(self):
         """Draw main menu."""
@@ -504,6 +613,191 @@ class Game:
         )
         self.screen.blit(debug_text, (10, 10))
 
+    def _create_job_form(self):
+        """Create the job application form inputs."""
+        self.job_inputs = []
+        form_x = SCREEN_WIDTH // 2 - 300
+        form_y = 200
+        input_height = 40
+        input_spacing = 70
+
+        fields = ["Full Name", "Email Address", "Phone Number", "Street Address", "Previous Work Experience"]
+        for i, label in enumerate(fields):
+            text_input = TextInput(
+                form_x, form_y + i * input_spacing,
+                600, input_height,
+                label, self.font_text
+            )
+            self.job_inputs.append(text_input)
+
+        # Activate first input
+        if self.job_inputs:
+            self.job_inputs[0].active = True
+
+        # Submit button
+        self.job_submit_button = Button(
+            SCREEN_WIDTH // 2 - 150,
+            form_y + len(fields) * input_spacing + 30,
+            300, 50,
+            "Submit Application",
+            self.font_choice
+        )
+
+    def draw_epilogue(self):
+        """Draw the epilogue screen."""
+        self.screen.fill(COLOR_BLACK)
+
+        # Title
+        title = self.font_title.render("EPILOGUE", True, COLOR_DARK_RED)
+        title_rect = title.get_rect(center=(SCREEN_WIDTH // 2, 100))
+        self.screen.blit(title, title_rect)
+
+        # Epilogue text
+        epilogue_text = EPILOGUE_TEXT.get(self.current_ending, EPILOGUE_TEXT["ending_escape"])
+        self.text_renderer.render(
+            self.screen, epilogue_text,
+            SCREEN_WIDTH // 2 - 350,
+            200
+        )
+
+        # Continue button
+        if not self.epilogue_button:
+            self.epilogue_button = Button(
+                SCREEN_WIDTH // 2 - 150,
+                SCREEN_HEIGHT - 150,
+                300, 50,
+                "Search for Jobs",
+                self.font_choice
+            )
+        self.epilogue_button.draw(self.screen)
+
+    def draw_job_application(self):
+        """Draw the job application form."""
+        self.screen.fill(COLOR_BLACK)
+
+        # McDonald's header
+        title = self.font_title.render("McDonald's", True, (255, 199, 0))  # McDonald's yellow
+        title_rect = title.get_rect(center=(SCREEN_WIDTH // 2, 60))
+        self.screen.blit(title, title_rect)
+
+        subtitle = self.font_text.render("Employment Application", True, COLOR_WHITE)
+        subtitle_rect = subtitle.get_rect(center=(SCREEN_WIDTH // 2, 110))
+        self.screen.blit(subtitle, subtitle_rect)
+
+        tagline = self.font_text.render("I'm Lovin' It", True, (255, 199, 0))
+        tagline_rect = tagline.get_rect(center=(SCREEN_WIDTH // 2, 140))
+        self.screen.blit(tagline, tagline_rect)
+
+        # Draw form inputs
+        for text_input in self.job_inputs:
+            text_input.draw(self.screen)
+
+        # Submit button
+        if self.job_submit_button:
+            self.job_submit_button.draw(self.screen)
+
+    def draw_loading(self):
+        """Draw the loading screen with fake processing."""
+        self.screen.fill(COLOR_BLACK)
+
+        # McDonald's header
+        title = self.font_title.render("McDonald's", True, (255, 199, 0))
+        title_rect = title.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 3))
+        self.screen.blit(title, title_rect)
+
+        # Current loading message
+        current_time = pygame.time.get_ticks()
+        elapsed = current_time - self.loading_start_time
+
+        # Update message every 800ms
+        self.loading_message_index = min(
+            int(elapsed / 800),
+            len(LOADING_MESSAGES) - 1
+        )
+
+        message = LOADING_MESSAGES[self.loading_message_index]
+        message_surface = self.font_text.render(message, True, COLOR_WHITE)
+        message_rect = message_surface.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
+        self.screen.blit(message_surface, message_rect)
+
+        # Animated dots
+        dots = "." * ((int(elapsed / 300) % 4))
+        dots_surface = self.font_text.render(dots, True, COLOR_WHITE)
+        self.screen.blit(dots_surface, (message_rect.right + 5, message_rect.y))
+
+        # Progress bar
+        bar_width = 400
+        bar_height = 20
+        bar_x = SCREEN_WIDTH // 2 - bar_width // 2
+        bar_y = SCREEN_HEIGHT // 2 + 50
+
+        pygame.draw.rect(self.screen, (50, 50, 50), (bar_x, bar_y, bar_width, bar_height))
+        progress = min(elapsed / 5000, 1.0)  # 5 seconds total
+        pygame.draw.rect(self.screen, (255, 199, 0), (bar_x, bar_y, int(bar_width * progress), bar_height))
+        pygame.draw.rect(self.screen, COLOR_DARK_RED, (bar_x, bar_y, bar_width, bar_height), 2)
+
+        # Check if loading is done
+        if elapsed >= 5000:
+            self.mode = "job_result"
+            self._create_result_button()
+
+    def _create_result_button(self):
+        """Create the button for the result screen."""
+        self.result_button = Button(
+            SCREEN_WIDTH // 2 - 150,
+            SCREEN_HEIGHT - 150,
+            300, 50,
+            "Return to Menu",
+            self.font_choice
+        )
+
+    def draw_job_result(self):
+        """Draw the rejection letter."""
+        self.screen.fill(COLOR_BLACK)
+
+        # Rejection letter
+        letter_x = SCREEN_WIDTH // 2 - 350
+        y = 100
+
+        # Header
+        header = self.font_title.render("McDonald's", True, (255, 199, 0))
+        header_rect = header.get_rect(center=(SCREEN_WIDTH // 2, y))
+        self.screen.blit(header, header_rect)
+        y += 80
+
+        # Letter content
+        name = self.applicant_name if self.applicant_name else "Applicant"
+        letter_lines = [
+            f"Dear {name},",
+            "",
+            "Thank you for your interest in joining the McDonald's team!",
+            "",
+            "After careful review of your application, we regret to inform",
+            "you that we will not be moving forward with your candidacy",
+            "at this time.",
+            "",
+            "We had many qualified applicants and unfortunately cannot",
+            "offer positions to everyone.",
+            "",
+            "We encourage you to apply again in the future.",
+            "",
+            "Best regards,",
+            "McDonald's Hiring Team",
+            "",
+            "",
+            "P.S. - Have you considered applying at Wendy's?"
+        ]
+
+        for line in letter_lines:
+            if line:
+                line_surface = self.font_text.render(line, True, COLOR_WHITE)
+                self.screen.blit(line_surface, (letter_x, y))
+            y += 30
+
+        # Return button
+        if self.result_button:
+            self.result_button.draw(self.screen)
+
     def handle_menu_input(self, event):
         """Handle input on menu screen."""
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
@@ -547,16 +841,81 @@ class Game:
                 if choice_num < len(self.choice_buttons):
                     self.go_to_scene(self.choice_buttons[choice_num].next_scene)
 
+    def handle_epilogue_input(self, event):
+        """Handle input on epilogue screen."""
+        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+            mouse_pos = pygame.mouse.get_pos()
+            if self.epilogue_button and self.epilogue_button.is_clicked(mouse_pos, True):
+                self.mode = "job_application"
+                self._create_job_form()
+
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RETURN or event.key == pygame.K_SPACE:
+                self.mode = "job_application"
+                self._create_job_form()
+
+    def handle_job_application_input(self, event):
+        """Handle input on job application form."""
+        # Handle text input for all fields
+        for i, text_input in enumerate(self.job_inputs):
+            result = text_input.handle_event(event)
+            if result == "next":
+                # Move to next field
+                text_input.active = False
+                next_index = (i + 1) % len(self.job_inputs)
+                self.job_inputs[next_index].active = True
+                break
+
+        # Handle submit button
+        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+            mouse_pos = pygame.mouse.get_pos()
+            if self.job_submit_button and self.job_submit_button.is_clicked(mouse_pos, True):
+                # Save the applicant name for the rejection letter
+                if self.job_inputs:
+                    self.applicant_name = self.job_inputs[0].text
+                self.mode = "job_loading"
+                self.loading_start_time = pygame.time.get_ticks()
+                self.loading_message_index = 0
+
+    def handle_job_result_input(self, event):
+        """Handle input on result screen."""
+        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+            mouse_pos = pygame.mouse.get_pos()
+            if self.result_button and self.result_button.is_clicked(mouse_pos, True):
+                self.mode = "menu"
+                self.current_ending = None
+                self.epilogue_button = None
+                self.result_button = None
+
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RETURN or event.key == pygame.K_SPACE:
+                self.mode = "menu"
+                self.current_ending = None
+                self.epilogue_button = None
+                self.result_button = None
+
     def update(self):
         """Update game state."""
         mouse_pos = pygame.mouse.get_pos()
+        dt = self.clock.get_time()  # Time since last frame in ms
 
         if self.mode == "menu":
             for button in self.menu_buttons:
                 button.check_hover(mouse_pos)
-        else:
+        elif self.mode == "playing":
             for button in self.choice_buttons:
                 button.check_hover(mouse_pos)
+        elif self.mode == "epilogue":
+            if self.epilogue_button:
+                self.epilogue_button.check_hover(mouse_pos)
+        elif self.mode == "job_application":
+            for text_input in self.job_inputs:
+                text_input.update(dt)
+            if self.job_submit_button:
+                self.job_submit_button.check_hover(mouse_pos)
+        elif self.mode == "job_result":
+            if self.result_button:
+                self.result_button.check_hover(mouse_pos)
 
     def run(self):
         """Main game loop."""
@@ -574,8 +933,15 @@ class Game:
 
                 if self.mode == "menu":
                     self.handle_menu_input(event)
-                else:
+                elif self.mode == "playing":
                     self.handle_game_input(event)
+                elif self.mode == "epilogue":
+                    self.handle_epilogue_input(event)
+                elif self.mode == "job_application":
+                    self.handle_job_application_input(event)
+                elif self.mode == "job_result":
+                    self.handle_job_result_input(event)
+                # job_loading has no input - just waits
 
             # Update
             self.update()
@@ -583,8 +949,16 @@ class Game:
             # Draw
             if self.mode == "menu":
                 self.draw_menu()
-            else:
+            elif self.mode == "playing":
                 self.draw_game()
+            elif self.mode == "epilogue":
+                self.draw_epilogue()
+            elif self.mode == "job_application":
+                self.draw_job_application()
+            elif self.mode == "job_loading":
+                self.draw_loading()
+            elif self.mode == "job_result":
+                self.draw_job_result()
 
             # Flip display
             pygame.display.flip()
